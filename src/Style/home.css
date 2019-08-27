@@ -1,0 +1,340 @@
+
+html, body{
+    height:100%
+    margin 0;
+  }
+
+
+  @font-face {
+    font-family: myFirsclientes;
+    src: url(./../Assets/fonts/Hack-Regular.ttf);
+  }
+  .texto {
+    font-family: myFirsclientes !important;
+  
+  }
+  .bac{
+
+    background-color: #FCEA01;
+}
+
+.cnt{
+    height: 100%;
+    width: 100%;
+}
+
+.dp{
+    top: 15%;
+}
+
+
+  .sp{
+    float: right;
+  }
+
+  
+
+  .dps{
+    margin-top: 5%;
+  }
+  .marginp{
+    margin-left: -30%;
+  }
+
+  /*MEDIA QUERY*/
+
+  @media only screen and (max-width: 401px) {
+    a {
+        color: black;
+        text-decoration: none;
+        background-color: transparent;
+    }
+    .marginp {
+        margin-left: -15%;
+    }
+    .dps {
+        margin-top: 10%;
+    
+    } 
+    .sp {
+        float: right;
+        display: none;
+    }
+    .big {
+       
+        width: 15rem !important;
+    }
+
+    .nbg{
+        text-align: center;
+    margin-left: 17% !important;
+    margin-right: 10% !important;
+    padding-top: 70% !important;
+    }
+  }
+
+
+  
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    a {
+        color: black;
+        text-decoration: none;
+        background-color: transparent;
+    }
+    .marginp {
+        margin-left: -15%;
+    }
+    .dps {
+        margin-top: 140%;
+    
+    } 
+    .sp {
+        float: right;
+        display: none;
+    }
+    .big {
+       
+        width: 15rem;
+    }
+
+    .nbg{
+        text-align: center;
+    margin-left: 22%;
+    margin-right: 10%;
+    padding-top: 100%;
+    }
+}
+    
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 600px) {
+        a {
+            color: black;
+            text-decoration: none;
+            background-color: transparent;
+        }
+        .marginp {
+            margin-left: -15%;
+        }
+        .dps {
+            margin-top: 20%;
+        
+        } 
+        .sp {
+            float: right;
+            display: none;
+        }
+        .big {
+           
+            width: 25rem;
+        }
+    
+        .nbg{
+            text-align: center;
+        margin-left: 8%;
+        margin-right: 10%;
+        padding-top: 60%;
+        }
+       .dsp{
+        margin-left: -24%
+       }
+    
+    } 
+    
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (min-width: 768px) {
+        a {
+            color: black;
+            text-decoration: none;
+            background-color: transparent;
+            font-size: 22px;
+        }
+        .marginp {
+            margin-left: -15%;
+        }
+        .dps {
+            margin-top: 10%;
+        
+        } 
+        .sp {
+            float: right;
+            display: none;
+        }
+        .big {
+           
+            width: 25rem;
+        }
+    
+        .nbg{
+            text-align: center;
+        margin-left: 22%;
+        margin-right: 10%;
+        padding-top: 60%;
+        }
+       .dsp{
+        margin-left: -18%
+       }
+    
+        
+    } 
+    
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) {
+        a {
+            color: black;
+            text-decoration: none;
+            background-color: transparent;
+        }
+        .menu {
+            float: right;
+            background-color: #FCEA01;
+            color: black !important;
+            font-size: 26px;
+        }
+        .marginp {
+            margin-left: -15%;
+        }
+        .dps {
+            margin-top: 10%;
+        
+        } 
+        .sp {
+            float: right;
+            display: block;
+        }
+        .big {
+           
+            width: 25rem;
+        }
+    
+        .nbg{
+            text-align: center;
+        margin-left: 28%;
+        margin-right: 10%;
+        padding-top: 38%;
+        }
+       .dsp{
+        margin-left: 0%
+       }
+       .prf{
+        font-size: 20px;font-size: 24px;
+        padding-top: 70%;
+        margin-right: 10px;
+        
+        
+    }
+        
+    .sp{
+        color: #E3097E;
+        margin-right: -22%;
+    }
+    } 
+    
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+        a {
+            color: black;
+            text-decoration: none;
+            background-color: transparent;
+        }
+        .menu {
+            float: right;
+            background-color: #FCEA01;
+            color: black !important;
+            font-size: 24px;
+        }
+        .marginp {
+            margin-left: -15%;
+        }
+        .dps {
+            margin-top: 10%;
+        
+        } 
+        .sp {
+            float: right;
+            display: block;
+        }
+        .big {
+           
+            width: 25rem;
+        }
+    
+        .nbg{
+            text-align: center;
+        margin-left: 34%;
+        margin-right: 10%;
+        padding-top: 10%;
+        }
+       .dsp{
+        margin-left: 0%
+       }
+    .prf{
+        font-size: 20px;
+        padding-top: 70%;
+        margin-right: 10px;
+        
+        
+    }
+    .sp{
+        color: #E3097E;
+        margin-right: -4%;
+    }
+    .ic{
+
+        margin-left: -20%;
+    }
+}
+    @media only screen and (min-width: 1600px) {
+        a {
+            color: black;
+            text-decoration: none;
+            background-color: transparent;
+        }
+        .menu {
+            float: right;
+            background-color: #FCEA01;
+            color: black !important;
+            font-size: 24px;
+            margin-right: 2%;
+        }
+        .marginp {
+            margin-left: -15%;
+        }
+        .dps {
+            margin-top: 5%;
+        
+        } 
+        .sp {
+            float: right;
+            display: block;
+        }
+        .big {
+           
+            width: 25rem;
+        }
+    
+        .nbg{
+            text-align: center;
+        margin-left: 34%;
+        margin-right: 10%;
+        padding-top: 25%;
+        }
+       .dsp{
+        margin-left: -30%
+       }
+    .prf{
+        font-size: 20px;
+        padding-top: 90%;
+        margin-right: 10px;
+        
+        
+    }
+    .sp{
+        color: #E3097E;
+        margin-right: -15%;
+    }
+    .ic{
+
+        margin-left: -38%;
+    }
+    }
