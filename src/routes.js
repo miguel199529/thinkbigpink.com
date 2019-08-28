@@ -9,15 +9,13 @@ import App from './App';
 import About from './components/About.js';
 
 
-const AppRouters =() =>
-<App>
-<Switch>
-
-    <Route path="/about" component ={About} />
-</Switch>
-
-
-</App>
+const AppRouters = () => (
+  <App>
+    <Switch>
+      <Route path="/about" component={About} />
+    </Switch>
+  </App>
+);
 
 
 export default AppRouters;
