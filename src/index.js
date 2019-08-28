@@ -2,18 +2,18 @@ import React from 'react';
 //agregar bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
 //librerias jquery
-import $ from 'jquery';
-import Popper from 'popper.js';
+// import $ from 'jquery';
+// import Popper from 'popper.js';
 //rutas
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
+// import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 //importar about
-import AppRouters from './routes';
-import about from './components/About';
+// import AppRouters from './routes';
+// import about from './components/About';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
