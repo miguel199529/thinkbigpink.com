@@ -1,5 +1,4 @@
 body,html {
-
   background-color: white;
 }
 
@@ -59,8 +58,6 @@ body,html {
   width: 100% !important;
 }
 
-/*nievos estilos*/
-
 .backg{
   background-color: white;
 }
@@ -91,7 +88,6 @@ body,html {
   font-family: myFirsclientes !important;
 
 }
-/*mediaquery*/
 @media only screen and (max-width: 320px) {
 
   .textabout{
@@ -159,7 +155,7 @@ body,html {
   display: none;
     }
 }
- /* Extra small devices (phones, 600px and down) */
+
  @media only screen and (max-width: 600px) {
   .rw{
     padding-top: 4%;
@@ -219,7 +215,6 @@ body,html {
 
  }
 
-/* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 
 .col-md-5{
@@ -249,7 +244,6 @@ max-width: 100% !important;
   margin-right: 15px;
   margin-left: 15px;
 }
-/*tablet*/
 .tab1{
 
   display: block;
@@ -288,8 +282,6 @@ max-width: 100% !important;
     }
 }
 
-
-  /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
 
         .rw{
@@ -313,7 +305,7 @@ max-width: 100% !important;
         margin-right: 15px;
         margin-left: 15px;
       }
-      /*tablet*/
+
       .tab1{
 
         display: block;
@@ -353,9 +345,6 @@ max-width: 100% !important;
     }
   }
 
-
-
-
   @media only screen and (min-width: 1200px) {
 .non{
   display: none;
@@ -388,7 +377,6 @@ max-width: 100% !important;
     .rows{
       padding-top: 5%;
     }
-
     .non1{
       display: block;
 
