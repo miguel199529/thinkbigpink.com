@@ -19,14 +19,11 @@
     "eject": "react-scripts eject",
     "lint": "eslint ./",
     "lint:fix": "eslint ./ --fix"
-
-
   },
   "husky": {
     "hooks": {
-      "precommit": "lint-staged"
-
-   }
+      "pre-commit": "echo 'Ejecutando lint...' && yarn lint "
+    }
   },
   "eslintConfig": {
     "extends": "react-app"
