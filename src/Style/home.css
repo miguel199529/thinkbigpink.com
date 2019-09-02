@@ -1,21 +1,42 @@
 
-html, body{
-    height:100%
-    margin 0;
-  }
+.bachome{
+  height:100vh;
 
+  width: 100%;
+  background: #FCEA01;
 
+}
   @font-face {
     font-family: myFirsclientes;
     src: url(./../Assets/fonts/Hack-Regular.ttf);
   }
   .texto {
     font-family: myFirsclientes !important;
-  
-  }
-  .bac{
 
-    background-color: #FCEA01;
+  }
+
+  .imgn{
+
+    text-align: center;
+    padding-top: 50%;
+    width: 35%;
+  }
+
+  .imgrow{
+    text-align: center;
+  }
+.speak{
+  font-size: 22px;
+  text-align: right;
+  padding-right: 50px;
+  color: #E3097E;
+  padding-top: 5%;
+
+
+}
+
+.tam{
+  width:35%
 }
 
 .cnt{
@@ -32,7 +53,7 @@ html, body{
     float: right;
   }
 
-  
+
 
   .dps{
     margin-top: 5%;
@@ -43,298 +64,138 @@ html, body{
 
   /*MEDIA QUERY*/
 
-  @media only screen and (max-width: 401px) {
-    a {
-        color: black;
-        text-decoration: none;
-        background-color: transparent;
-    }
-    .marginp {
-        margin-left: -15%;
-    }
-    .dps {
-        margin-top: 10%;
-    
-    } 
-    .sp {
-        float: right;
-        display: none;
-    }
-    .big {
-       
-        width: 15rem !important;
-    }
+  @media only screen and (max-width: 320px) {
+    .speak{
+      display: none;
 
-    .nbg{
-        text-align: center;
-    margin-left: 17% !important;
-    margin-right: 10% !important;
-    padding-top: 70% !important;
+
     }
+    .imgn {
+      text-align: center;
+      padding-top: 70%;
+      width: 60%;
+  }
+
   }
 
 
-  
+
+  @media only screen and (max-width: 401px) {
+    .speak{
+      display: none;
+
+
+    }
+    .imgn {
+      text-align: center;
+      padding-top: 70%;
+      width: 60%;
+  }
+  }
+
+
+
   /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    a {
-        color: black;
-        text-decoration: none;
-        background-color: transparent;
-    }
-    .marginp {
-        margin-left: -15%;
-    }
-    .dps {
-        margin-top: 140%;
-    
-    } 
-    .sp {
-        float: right;
-        display: none;
-    }
-    .big {
-       
-        width: 15rem;
+  .speak{
+    display: none;
+
+
+  }
+  .imgn {
+    text-align: center;
+    padding-top: 70%;
+    width: 50%;
+}
+
     }
 
-    .nbg{
-        text-align: center;
-    margin-left: 22%;
-    margin-right: 10%;
-    padding-top: 100%;
+    @media only screen and (max-width: 767px) and (min-width: 601px)  { .speak{
+      display: none;
+
+
     }
-}
-    
-    /* Small devices (portrait tablets and large phones, 600px and up) */
-    @media only screen and (min-width: 600px) {
-        a {
-            color: black;
-            text-decoration: none;
-            background-color: transparent;
-        }
-        .marginp {
-            margin-left: -15%;
-        }
-        .dps {
-            margin-top: 20%;
-        
-        } 
-        .sp {
-            float: right;
-            display: none;
-        }
-        .big {
-           
-            width: 25rem;
-        }
-    
-        .nbg{
-            text-align: center;
-        margin-left: 8%;
-        margin-right: 10%;
-        padding-top: 60%;
-        }
-       .dsp{
-        margin-left: -24%
-       }
-    
-    } 
-    
+    .imgn {
+      text-align: center;
+      padding-top: 50%;
+      width: 40%;
+  }
+  }
+
+
+
     /* Medium devices (landscape tablets, 768px and up) */
     @media only screen and (min-width: 768px) {
-        a {
-            color: black;
-            text-decoration: none;
-            background-color: transparent;
-            font-size: 22px;
-        }
-        .marginp {
-            margin-left: -15%;
-        }
-        .dps {
-            margin-top: 10%;
-        
-        } 
-        .sp {
-            float: right;
-            display: none;
-        }
-        .big {
-           
-            width: 25rem;
-        }
-    
-        .nbg{
-            text-align: center;
-        margin-left: 22%;
-        margin-right: 10%;
-        padding-top: 60%;
-        }
-       .dsp{
-        margin-left: -18%
-       }
-    
-        
-    } 
-    
+      .speak{
+        display: none;
+
+
+      }
+      .imgn {
+        text-align: center;
+        padding-top: 100%;
+        width: 80%;
+    }
+
+
+    }
+
     /* Large devices (laptops/desktops, 992px and up) */
     @media only screen and (min-width: 992px) {
-        a {
-            color: black;
-            text-decoration: none;
-            background-color: transparent;
-        }
-        .menu {
-            float: right;
-            background-color: #FCEA01;
-            color: black !important;
-            font-size: 26px;
-        }
-        .marginp {
-            margin-left: -15%;
-        }
-        .dps {
-            margin-top: 10%;
-        
-        } 
-        .sp {
-            float: right;
-            display: block;
-        }
-        .big {
-           
-            width: 25rem;
-        }
-    
-        .nbg{
-            text-align: center;
-        margin-left: 28%;
-        margin-right: 10%;
-        padding-top: 38%;
-        }
-       .dsp{
-        margin-left: 0%
-       }
-       .prf{
-        font-size: 20px;font-size: 24px;
-        padding-top: 70%;
-        margin-right: 10px;
-        
-        
+      .imgn {
+        text-align: center;
+        padding-top: 85%;
+        width: 80%;
     }
-        
-    .sp{
-        color: #E3097E;
-        margin-right: -22%;
+
+    .speak{
+      font-size: 22px;
+      text-align: right;
+      padding-right: 50px;
+      color: #E3097E;
+      padding-top: 5%;
+display: none;
+
     }
-    } 
-    
+    }
+
     /* Extra large devices (large laptops and desktops, 1200px and up) */
     @media only screen and (min-width: 1200px) {
-        a {
-            color: black;
-            text-decoration: none;
-            background-color: transparent;
-        }
-        .menu {
-            float: right;
-            background-color: #FCEA01;
-            color: black !important;
-            font-size: 24px;
-        }
-        .marginp {
-            margin-left: -15%;
-        }
-        .dps {
-            margin-top: 10%;
-        
-        } 
-        .sp {
-            float: right;
-            display: block;
-        }
-        .big {
-           
-            width: 25rem;
-        }
-    
-        .nbg{
-            text-align: center;
-        margin-left: 34%;
-        margin-right: 10%;
-        padding-top: 10%;
-        }
-       .dsp{
-        margin-left: 0%
-       }
-    .prf{
-        font-size: 20px;
-        padding-top: 70%;
-        margin-right: 10px;
-        
-        
+      .imgn {
+        text-align: center;
+        padding-top: 100%;
+        width: 35%;
     }
-    .sp{
-        color: #E3097E;
-        margin-right: -4%;
-    }
-    .ic{
 
-        margin-left: -20%;
+    .speak{
+      font-size: 18px;
+      text-align: right !important;
+      padding-right: 50px;
+      color: #E3097E;
+      padding-top: 25%;
+display: block;
+
+
+
     }
 }
     @media only screen and (min-width: 1600px) {
-        a {
-            color: black;
-            text-decoration: none;
-            background-color: transparent;
-        }
-        .menu {
-            float: right;
-            background-color: #FCEA01;
-            color: black !important;
-            font-size: 24px;
-            margin-right: 2%;
-        }
-        .marginp {
-            margin-left: -15%;
-        }
-        .dps {
-            margin-top: 5%;
-        
-        } 
-        .sp {
-            float: right;
-            display: block;
-        }
-        .big {
-           
-            width: 25rem;
-        }
-    
-        .nbg{
-            text-align: center;
-        margin-left: 34%;
-        margin-right: 10%;
-        padding-top: 25%;
-        }
-       .dsp{
-        margin-left: -30%
-       }
-    .prf{
-        font-size: 20px;
-        padding-top: 90%;
-        margin-right: 10px;
-        
-        
+      .imgn {
+        text-align: center;
+        padding-top: 75%;
+        width: 35%;
     }
-    .sp{
-        color: #E3097E;
-        margin-right: -15%;
-    }
-    .ic{
 
-        margin-left: -38%;
+    .speak{
+      font-size: 18px;
+      text-align: right !important;
+      padding-right: 50px;
+      color: #E3097E;
+      padding-top: 18%;
+display: block;
+
+
+
     }
+
     }

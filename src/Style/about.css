@@ -1,44 +1,406 @@
-.mobile-container {
-    max-width: 480px;
-    margin: auto;
-    background-color: #555;
-    height: 500px;
-    color: white;
-    border-radius: 10px;
+body,html {
+
+  background-color: white;
+}
+
+.posisc{
+
+  float: right !important;
+}
+.think{
+  color: #E3097E;
+
+}
+.postit{
+  float: right !important;
+  margin-right: 10%;
+}
+.p1{
+  font-size: 32px;
+  text-align: left;
+  margin-right: 10px;
+  margin-left: 10px;
+
+}
+.p3{
+  font-size: 24px;
+  text-align: justify;
+  margin-right: 10px;
+  margin-left: 10px;
+
+}
+.p4{
+  margin-left: 0%;
+}
+.margins{
+
+  margin-right: 3%;
+  margin-left: 3%;
+}
+
+.paddings{
+
+  padding-top: 8%;
+}
+.pt{
+  margin-top: 5%;
+}
+
+@font-face {
+  font-family: myFirsclientes;
+  src: url(./../Assets/fonts/Hack-Regular.ttf);
+}
+.texto {
+  font-family: myFirsclientes !important;
+
+}
+.ims{
+  height: 100% !important;
+  width: 100% !important;
+}
+
+/*nievos estilos*/
+
+.backg{
+  background-color: white;
+}
+
+.backg2{
+  background-color: white;
+}
+
+.pd{
+  padding-top: 5%;
+}
+.cardetext{
+
+  text-align: center;
+  font-size: 22px;
+}
+.cardtit{
+
+  font-size: 26px;
+  text-align: left;
+  margin-left: 10%;
+}
+@font-face {
+  font-family: myFirsclientes;
+  src: url(./../Assets/fonts/Hack-Regular.ttf);
+}
+.texto {
+  font-family: myFirsclientes !important;
+
+}
+/*mediaquery*/
+@media only screen and (max-width: 320px) {
+
+  .textabout{
+
+    font-size: 18px;
   }
-  
-  .topnav {
-    overflow: hidden;
-    background-color: #333;
-    position: relative;
-  }
-  
-  .topnav #myLinks {
+  .textabout2{
+
     display: none;
   }
-  
-  .topnav a {
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+  .textabout3{
+
     display: block;
   }
-  
-  .topnav a.icon {
-    background: black;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
+
+  .p3{
+    font-size: 32px;
+    text-align: left;
+    margin-right: 15px;
+    margin-left: 15px;
+
   }
-  
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+  .rw{
+    padding-top: 4%;
   }
-  
-  .active {
-    background-color: #4CAF50;
-    color: white;
+  .non1{
+    display: none;
+      }
+}
+
+@media only screen and (max-width: 401px) {
+
+  .rw{
+    padding-top: 4%;
+  }
+  .textabout{
+
+  font-size: 16px;
+}
+.textabout2{
+
+  display: none;
+}
+.textabout3{
+
+  display: block;
+}
+.p3 {
+  font-size: 14px;
+  text-align: justify;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.tab1{
+
+  display: none;
+}
+.tabim{
+  display: none;
+}
+.tab2{
+  display: none;
+}
+.non1{
+  display: none;
+    }
+}
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+  .rw{
+    padding-top: 4%;
+  }
+  .textabout{
+
+  font-size: 16px;
+}
+.textabout2{
+
+  display: none;
+}
+.textabout3{
+
+  display: block;
+}
+.p3 {
+  font-size: 14px;
+  text-align: justify;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.tab1{
+
+  display: none;
+}
+.tabim{
+  display: none;
+}
+.tab2{
+  display: none;
+}
+.non1{
+  display: none;
+    }
+ }
+
+ @media only screen and (max-width: 767px) and (min-width: 601px)  {
+ .non2{
+   display: none !important;
+   padding-top: 5%;
+    font-size: 26px;
+ }
+
+.non2text{
+  padding-top: 5%;
+    font-size: 18px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.non3text{
+  padding-top: 5%;
+    font-size: 22px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+ }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+.col-md-5{
+max-width: 100% !important;
+}
+.col-md-7{
+  max-width:  100% !important;
+}
+  .rw{
+    padding-top: 4%;
+  }
+  .textabout{
+
+  font-size: 16px;
+}
+.textabout2{
+
+  display: none;
+}
+.textabout3{
+
+  display: block;
+}
+.p3 {
+  font-size: 14px;
+  text-align: justify;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+/*tablet*/
+.tab1{
+
+  display: block;
+    font-size: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.tabim{
+  display: block;
+}
+.tab2{
+  display: block;
+  font-size: 22px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.tabim2{
+  display:none
+
+}
+
+.tabim3{
+  display: none;
+}
+.tabim4{
+  display: none;
+}
+.ims{
+  height: 100% !important;
+  width: 90% !important;
+  margin-left: 5%;
+}
+.non1{
+  display: none;
+    }
+}
+
+
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+
+        .rw{
+          padding-top: 4%;
+        }
+        .textabout{
+
+        font-size: 16px;
+      }
+      .textabout2{
+
+        display: none;
+      }
+      .textabout3{
+
+        display: block;
+      }
+      .p3 {
+        font-size: 14px;
+        text-align: justify;
+        margin-right: 15px;
+        margin-left: 15px;
+      }
+      /*tablet*/
+      .tab1{
+
+        display: block;
+          font-size: 30px;
+          margin-left: 5%;
+          margin-right: 5%;
+      }
+      .tabim{
+        display: block;
+      }
+      .tab2{
+        display: block;
+        font-size: 26px;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-top: 5%;
+      }
+
+      .tabim2{
+        display:none
+
+      }
+
+      .tabim3{
+        display: none;
+      }
+      .tabim4{
+        display: none;
+      }
+      .ims{
+        height: 100% !important;
+        width: 90% !important;
+        margin-left: 5%;
+      }
+   .non1{
+  display: none;
+    }
+  }
+
+
+
+
+  @media only screen and (min-width: 1200px) {
+.non{
+  display: none;
+}
+.rows{
+  padding-top: 5%;
+}
+
+.non1{
+  display: block;
+
+  font-size: 18px;
+  }
+
+.p5{
+  font-size: 28px;
+}
+.ims {
+  height: 100% !important;
+  width: 90% !important;
+  margin-left: 8%;
+}
+  }
+
+  @media only screen and (min-width: 1600px) {
+
+    .non{
+      display: none;
+    }
+    .rows{
+      padding-top: 5%;
+    }
+
+    .non1{
+      display: block;
+
+      font-size: 22px;
+      }
+
+    .p5{
+      font-size: 28px;
+    }
+    .ims {
+      height: 100% !important;
+      width: 90% !important;
+      margin-left: 8%;
+  }
   }

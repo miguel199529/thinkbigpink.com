@@ -1,13 +1,14 @@
-html,body{
-  background-color: #FCEA01;
-}
-.bgr{
-  background-color:  #FCEA01;
-
-}
 
 .App {
   text-align: center;
+}
+.logonav{
+
+  width: 30px;
+  height: auto;
+}
+.nv{
+  z-index: 100;;
 }
 
 .App-logo {
