@@ -1,0 +1,677 @@
+@font-face {
+  font-family: myFirsclientes;
+  src: url(./../Assets/fonts/Hack-Regular.ttf);
+}
+.texto {
+  font-family: myFirsclientes !important;
+
+}
+.aboutservices-img{
+  width: 100%;
+  margin-top: 15%;
+  height: 50vh;
+  text-align: left;
+
+}
+.aboutservices-texto{
+  margin-top: 12%;
+}
+.about-service-div{
+  background-color: #E3097E;
+  border:  #E3097E;
+  height: 3vh;
+  width: 350px;
+  margin-left: -7%;
+
+
+}
+
+.about-service-div-blue {
+  background-color: #55C8E5;
+  border: #55C8E5;
+  height: 6vh;
+  width: 375px !important;
+  text-align: right;
+  margin-left: 50%;
+  margin-top: 4%;
+}
+.about-service-div-yellow {
+  background-color: #FCEA01;
+  border: #FCEA01;
+  height: 6vh;
+  width: 450px;
+  text-align: right;
+  margin-left: -7%;
+  margin-bottom: -8%;
+
+}
+.about-service-text{
+  font-size: 36px;
+}
+.aboutservice-lis{
+  list-style-type:none;
+  font-size: 26px;
+  white-space: pre-wrap;
+}
+
+@media only screen and (max-width: 320px) {
+  .about-service-div {
+    display: none !important;
+}
+
+  .about-services-paddings{
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+  }
+  .about-service-div{
+    display: none;
+  }
+  .about-service-div-blue{
+    display: none;
+  }
+  .about-service-div-yellow{
+    display: none;
+  }
+  /**/
+  .aboutservices-img {
+      margin-top: 42% !important;
+      margin-top: 15%;
+      height: 50vh;
+      text-align: left;
+      width: 100%;
+
+}
+.about-service-text {
+  font-size: 26px;
+  padding-left: 8%;
+}
+.aboutservice-lis {
+  list-style-type: none;
+  font-size: 16px;
+  white-space: pre-wrap;
+}
+/*divs colores*/
+.div1{
+  background-color: #FCEA01;
+  border: #FCEA01;
+  height: 4vh;
+  width: 30px;
+  margin-left: -5%;
+}
+.div2{
+  background-color: #E3097E;
+  border: #E3097E;
+  height: 4vh;
+  width: 30px;
+  margin-left: -5%;
+  margin-top: 2%;
+}
+.div3{
+  background-color: #55C8E5;
+  border: #55C8E5;
+  height: 4vh;
+  width: 30px;
+  margin-left: -5%;
+  margin-top: 2%;
+}
+.div4{
+  background-color: black;
+  border: black;
+  height: 4vh;
+  width: 30px;
+  margin-left: -5%;
+  margin-top: 2%;
+}
+.aboutservices-colors{
+  margin-bottom: -40%;
+  margin-left: 1%;
+}
+ /*tablet*/
+ .about-services-ipad{
+  display: none;
+}
+}
+@media only screen and (max-width: 401px) {
+  .about-service-div {
+    display: none !important;
+}
+
+
+.about-services-paddings{
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+  }
+  .about-service-div{
+    display: none;
+
+  }
+  .about-service-div-blue{
+    display: none;
+  }
+  .about-service-div-yellow{
+    display: none;
+  }
+  /**/
+  .aboutservices-img {
+      margin-top: 42% !important;
+      margin-top: 15%;
+      height: 50vh;
+      width: 100% !important;
+
+}
+.about-service-text {
+  font-size: 26px;
+  padding-left: 10%;
+
+}
+.aboutservice-lis {
+  list-style-type: none;
+  font-size: 16px;
+  white-space: pre-wrap;
+}
+/*divs colores*/
+.div1{
+  background-color: #FCEA01;
+  border: #FCEA01;
+  height: 4vh;
+  width: 30px;
+  margin-left: -5%;
+}
+.div2{
+  background-color: #E3097E;
+  border: #E3097E;
+  height: 4vh;
+  width: 30px;
+  margin-left: -5%;
+  margin-top: 2%;
+}
+.div3{
+  background-color: #55C8E5;
+  border: #55C8E5;
+  height: 4vh;
+  width: 30px;
+  margin-left: -5%;
+  margin-top: 2%;
+}
+.div4{
+  background-color: black;
+  border: black;
+  height: 4vh;
+  width: 30px;
+  margin-left: -5%;
+  margin-top: 2%;
+}
+.aboutservices-colors{
+  margin-bottom: -40%;
+  margin-left: 1%;
+}
+ /*tablet*/
+ .about-services-ipad{
+  display: none;
+}
+}
+@media only screen and (max-width: 600px) and (min-width: 402px)  {
+
+  .about-services-text{
+    margin-top: 12% !important;
+    font-size: 20px;
+  }
+  .about-services-paddings{
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+  }
+  .about-service-div{
+    display: none;
+  }
+  .about-service-div-blue{
+    display: none;
+  }
+  .about-service-div-yellow{
+    display: none;
+  }
+  /**/
+  .aboutservices-img {
+      margin-top: 42% !important;
+      margin-top: 15%;
+      height: 50vh;
+      text-align: left;
+      width: 100%;
+
+}
+.about-service-text {
+  font-size: 26px;
+  margin-left: 8%;
+}
+.aboutservice-lis {
+  list-style-type: none;
+  font-size: 16px;
+  white-space: pre-wrap;
+}
+/*divs colores*/
+.div1{
+  background-color: #FCEA01;
+  border: #FCEA01;
+  height: 4vh;
+  width: 30px;
+  margin-left: -5%;
+}
+.div2{
+  background-color: #E3097E;
+  border: #E3097E;
+  height: 4vh;
+  width: 30px;
+  margin-left: -5%;
+  margin-top: 2%;
+}
+.div3{
+  background-color: #55C8E5;
+  border: #55C8E5;
+  height: 4vh;
+  width: 30px;
+  margin-left: -5%;
+  margin-top: 2%;
+}
+.div4{
+  background-color: black;
+  border: black;
+  height: 4vh;
+  width: 30px;
+  margin-left: -5%;
+  margin-top: 2%;
+}
+.aboutservices-colors{
+  margin-bottom: -40%;
+  margin-left: 1%;
+}
+ /*tablet*/
+ .about-services-ipad{
+  display: none;
+}
+}
+@media only screen and (max-width: 767px) and (min-width: 601px)  {
+  .about-services-paddings{
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+  }
+  .about-service-div{
+    display: none;
+  }
+  .about-service-div-blue{
+    display: none;
+  }
+  .about-service-div-yellow{
+    display: none;
+  }
+  /**/
+  .aboutservices-img {
+      margin-top: 42% !important;
+      margin-top: 15%;
+      height: 50vh;
+      text-align: left;
+      width: 100%;
+
+}
+.about-service-text {
+  font-size: 28px;
+}
+.aboutservice-lis {
+  list-style-type: none;
+  font-size: 24px;
+  white-space: pre-wrap;
+  margin-bottom: 34%;
+  margin-top: 16%;
+}
+/*divs colores*/
+.div1{
+  background-color: #FCEA01;
+  border: #FCEA01;
+  height: 4vh;
+  width: 30px;
+  margin-left: -5%;
+}
+.div2{
+  background-color: #E3097E;
+  border: #E3097E;
+  height: 4vh;
+  width: 30px;
+  margin-left: -5%;
+  margin-top: 2%;
+}
+.div3{
+  background-color: #55C8E5;
+  border: #55C8E5;
+  height: 4vh;
+  width: 30px;
+  margin-left: -5%;
+  margin-top: 2%;
+}
+.div4{
+  background-color: black;
+  border: black;
+  height: 4vh;
+  width: 30px;
+  margin-left: -5% !important;
+  margin-top: 2%;
+}
+.aboutservices-colors {
+  margin-bottom: -46%;
+  margin-left: 3%;
+}
+ /*tablet*/
+ .about-services-ipad{
+  display: none;
+}
+}
+@media only screen and (min-width: 768px) {
+  .about-service-div{
+    display: none;
+  }
+  .about-service-div-blue{
+    display: none;
+  }
+  .about-service-div-yellow{
+    display: none;
+  }
+
+  .aboutservices-img {
+      margin-top: 10% !important;
+      margin-top: 15%;
+      height: 50vh;
+      text-align: left;
+      width: 105%;
+      margin-left: -5%;
+}
+.about-service-text {
+  font-size: 32px;
+  margin-left: 5%;
+  margin-top: 4%;
+}
+.aboutservice-lis {
+  list-style-type: none;
+  font-size: 26px;
+  white-space: pre-wrap;
+  margin-bottom: 34%;
+  margin-top: 16%;
+  margin-left: 5%;
+}
+/*divs colores*/
+.div1{
+  background-color: #FCEA01;
+  border: #FCEA01;
+  height: 4vh;
+  width: 30px;
+  margin-left: -5%;
+}
+.div2{
+  background-color: #E3097E;
+  border: #E3097E;
+  height: 4vh;
+  width: 30px;
+  margin-left: -5%;
+  margin-top: 2%;
+}
+.div3{
+  background-color: #55C8E5;
+  border: #55C8E5;
+  height: 4vh;
+  width: 30px;
+  margin-left: -5% !important;
+  margin-top: 2%;
+}
+.div4{
+  background-color: black;
+  border: black;
+  height: 4vh;
+  width: 30px;
+  margin-left: -5% !important;
+  margin-top: 2%;
+}
+.aboutservices-colors{
+  margin-bottom: -40%;
+  margin-left: 5%;
+}
+/*tablet*/
+.abou-services-ipad{
+  display: none;
+}
+.about-services-ipad{
+  display: block;
+}
+}
+@media only screen and (min-width: 992px) {
+  .about-service-div{
+    display: none;
+  }
+  .about-service-div-blue{
+    display: none;
+  }
+  .about-service-div-yellow{
+    display: none;
+  }
+  /**/
+  .aboutservices-img {
+      margin-top: 42% !important;
+      margin-top: 15%;
+      height: 50vh;
+      text-align: left;
+      width: 105%;
+      margin-left: -5%;
+}
+.about-service-text {
+  font-size: 42px;
+  margin-left: 5%;
+  margin-top: 4%;
+}
+.aboutservice-lis {
+  list-style-type: none;
+  font-size: 34px;
+  white-space: pre-wrap;
+  margin-bottom: 34%;
+  margin-top: 19%;
+  margin-left: 6%;
+}
+/*divs colores*/
+.div1{
+  background-color: #FCEA01;
+  border: #FCEA01;
+  height: 4vh;
+  width: 30px;
+  margin-left: -5%;
+}
+.div2{
+  background-color: #E3097E;
+  border: #E3097E;
+  height: 4vh;
+  width: 30px;
+  margin-left: -5%;
+  margin-top: 2%;
+}
+.div3{
+  background-color: #55C8E5;
+  border: #55C8E5;
+  height: 4vh;
+  width: 30px;
+  margin-left: -5%;
+  margin-top: 2%;
+}
+.div4{
+  background-color: black;
+  border: black;
+  height: 4vh;
+  width: 30px;
+  margin-left: -5%;
+  margin-top: 2%;
+}
+.aboutservices-colors{
+  margin-bottom: -40%;
+  margin-left: 5%;
+}
+/*tablet*/
+.abou-services-ipad{
+  display: none;
+}
+.about-services-ipad{
+
+  display: block;
+    margin-top: -30%;
+}
+}
+@media only screen and (min-width: 1200px) {
+  .about-services-paddings{
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+  }
+  .about-service-div {
+    background-color: #E3097E;
+    border: #E3097E;
+    height: 3vh;
+    width: 350px;
+    margin-left: 1px;
+    margin-top: 10%;
+}
+  .about-service-top{
+    margin-top: -15%;
+  }
+  .aboutservice-lis {
+    list-style-type: none;
+    font-size: 26px;
+    white-space: pre-wrap;
+    margin-bottom: 34%;
+    margin-top: 18%;
+    margin-left: 5%;
+}
+  .about-service-text {
+    font-size: 36px !important;
+    margin-left: 5%;
+    margin-top: -2%;
+}
+  .aboutservices-texto{
+    margin-top: 32%;
+  }
+  .aboutservices-colors{
+    display: none;
+  }
+  .about-service-div{
+    display: block;
+
+ }
+  .about-service-div-blue {
+    background-color: #55C8E5;
+    border: #55C8E5;
+    height: 6vh;
+    width: 65px !important;
+    text-align: right;
+    margin-left: 87%;
+    margin-top: 4%;
+    display: block;
+}
+  .about-service-div-yellow{
+    display: block;margin-left: 1px !important;
+
+  }
+  /*tablet*/
+  .about-services-ipad{
+    display: none;
+  }
+  .abou-services-ipad{
+    display: block;
+  }
+  .aboutservices-img {
+    margin-top: 42% !important;
+    margin-top: 15%;
+    height: 75vh;
+    text-align: left;
+    width: 100%;
+
+}
+.about-service-text {
+  font-size: 42px;
+  margin-left: 5%;
+  margin-top: -2%;
+}
+.about-service-div-yellow {
+  background-color: #FCEA01;
+  border: #FCEA01;
+  height: 7vh;
+  width: 347px;
+  text-align: right;
+  margin-left: -7%;
+  margin-bottom: -12%;
+}
+
+}
+@media only screen and (min-width: 1600px) {
+  .about-service-div-yellow {
+    background-color: #FCEA01;
+    border: #FCEA01;
+    height: 7vh;
+    width: 347px;
+    text-align: right;
+    margin-left: -13% !important;
+    margin-bottom: -12%;
+}
+.about-service-div {
+  background-color: #E3097E;
+  border: #E3097E;
+  height: 3vh;
+  width: 350px;
+  margin-left: -13% !important;
+  margin-top: 10%;
+}
+.about-service-text {
+  font-size: 42px;
+  margin-left: -2% !important;
+  margin-top: -2%;
+}
+  .about-services-paddings{
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+  }
+  .about-service-top{
+    margin-top: -15%;
+  }
+  .about-service-div-blue {
+    width: 320px !important;
+    display: block;
+    margin-left: 45%;
+}
+  .abou-services-ipad{
+    display: block;
+  }
+  .aboutservices-texto{
+    margin-top: 32%;
+  }
+  .aboutservices-colors{
+    display: none;
+  }
+  .about-service-div{
+    display: block;
+    margin-left: -4%;
+  }
+
+  .about-service-text {
+    font-size: 34px !important;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.aboutservices-img {
+  margin-top: 42% !important;
+  margin-top: 15%;
+  height: 75vh;
+  text-align: left;
+  width: 100%;
+}
+   /*tablet*/
+   .about-services-ipad{
+    display: none;
+  }
+  .about-service-div {
+    background-color: #E3097E;
+    border: #E3097E;
+    height: 3vh;
+    width: 350px;
+    margin-left: 1px;
+    margin-top: 10%;
+}
+
+}
