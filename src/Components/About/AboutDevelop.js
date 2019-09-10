@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 import { Image } from 'react-bootstrap';
 import './../../Assets/fonts/Hack-Regular.ttf';
-import Imagens from './../../Assets/img/about/im.png';
+import Imagens from './../../Assets/img/about/2.png';
 import './../../Style/AboutDevelop.css';
 class aboutdevelop extends Component {
   render() {
     return (
       <div>
-        <div className="container-fluid center aboutDevelop">
+        <div className="container-fluid center aboutDevelop margin-tops" id="#/Develop">
           <div className="row">
             <div className="col-md-4 aboutDevelop-main aboutDevelop-main-spacing-row aboutDevelop-bordeer">
               <p className="aboutDevelop-main-spacing aboutDevelop-main-spacing-text texto">
-                //We develop colorful</p>
+              &frasl;  &frasl;We develop colorful</p>
               <div className="about-barra about-barra-display">
                 <div className="row about-box-color-movil about-divs-pink">
                 </div>
@@ -22,7 +22,8 @@ class aboutdevelop extends Component {
                 <div className="row about-box-color-movil about-divs-black">
                 </div>
               </div>
-              <p className="aboutDevelop-main-wedevelop texto about-divs-margins about-text ">strategies to help brands live successfully in a digital world. |</p>
+              <p className="aboutDevelop-main-wedevelop texto about-divs-margins about-text ">We develop colorful strategies to help brands live successfully in a digital
+world. &#124;</p>
               <div className="about-barra about-barra-ipad">
                 <div className="row about-box-color-movil about-divs-pink">
                 </div>
@@ -42,16 +43,16 @@ class aboutdevelop extends Component {
               <Image src={Imagens}
                 className="aboutDevelop-Imagen about-imagen">
               </Image>
-              <p className="texto aboutDevelop-main-branding tablet">
+              <div className="texto aboutDevelop-main-branding tablet">
                 <div className="about-box-pink about-imgn"></div>
                 <div className="about-box-blue about-imgn"></div>
                 <div className="divscolores">
                 </div>
                 <div className="divs-amarillo"></div>
-                <h2 className="aboutDevelop-main-branding-born tablet">// We were born within a branding &nbsp; </h2>
+                <h2 className="aboutDevelop-main-branding-born tablet">&frasl;  &frasl; We were born within a branding &nbsp; </h2>
                 company; therefore, we like attractive, colorful and well executed things, we can’t avoid it, it’s inside our DNA.
                 We work with projects that include: software development, design and multimedia; we collaborate every day with teams from different disciplines that also provide different perspectives.
-              </p>
+              </div>
               <p className="texto about-main-sectors tablet">
                 We have accomplished projects for different industries, from health to government sector, from Mexico to Japan, connecting user needs with business objectives.
               </p>
@@ -71,7 +72,7 @@ class aboutdevelop extends Component {
               </div>
               <div className="divs-amarillo"></div>
               <p className="texto about-main-sectors about-selector about-branding ">
-              // We were born within a branding &nbsp;
+              &frasl; We were born within a branding &nbsp;
               </p>
               <p className="texto about-main-sectors about-have-selector">
                 We have accomplished projects for different industries, from health to government sector, from Mexico to Japan, connecting user needs with business objectives.

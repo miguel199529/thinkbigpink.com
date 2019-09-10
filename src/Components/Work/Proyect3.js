@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Image } from 'react-bootstrap';
 import './../../Assets/fonts/Hack-Regular.ttf';
-import ImagenP from './../../Assets/img/LogotipoGirasolo.svg';
+import ImagenP from './../../Assets/img/work/work.png';
 import './../../Style/Proyect1.css';
 class Proyect3 extends Component {
   render() {
@@ -14,7 +14,6 @@ class Proyect3 extends Component {
                 src={ImagenP}
                 className="card-width"
               />
-              <p>comming soon</p>
               <div className="card-body card-borde polaroid">
                 <p className="card-text  texto card-name">Nombre del Proyecto</p>
                 <p className="card-text  texto card-type">Tipo de Proyecto</p>

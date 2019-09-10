@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Image } from 'react-bootstrap';
-import Imagens from './../../Assets/img/about/im.png';
+import Imagens from './../../Assets/img/about/5.png';
 import './../../Assets/fonts/Hack-Regular.ttf';
 import './../../Style/AboutArewe.css';
 class aboutArewe extends Component {

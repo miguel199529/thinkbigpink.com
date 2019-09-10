@@ -1,0 +1,205 @@
+.footers {
+  height: 60px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black !important;
+  text-align: center;
+}
+
+.footer-girasolo{
+   font-size: 14px;
+   color: #FCEA01;
+   text-align: left;
+   margin-left: 4%;
+}
+
+.footer-pacueco{
+   float: right;
+   margin-right: 4%;
+}
+
+.footer-col{
+  margin-top: 2%;
+}
+
+.footer-row{
+  margin-left: 0% !important;
+  margin-right: 0% !important;
+}
+@font-face {
+  font-family: myFirsclientes;
+  src: url(./../Assets/fonts/Hack-Regular.ttf);
+}
+.texto {
+  font-family: myFirsclientes !important;
+
+}
+
+@media only screen and  (min-width: 320px) {
+  .footers {
+    height: 117px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black !important;
+    text-align: center;
+}
+  .footer-movil{
+      display: block;
+  }
+  .footer-txt{
+      display: none !important;
+  }
+  .footer-texto{
+      font-size: 12px;
+      color: #FCEA01;
+  }
+
+  .footer-imagen-movil{
+      padding-top: 2%;
+  }
+}
+@media only screen and  (min-width: 414px) {
+  .footer-movil{
+      display: block;
+  }
+  .footer-txt{
+      display: none !important;
+  }
+  .footer-texto{
+      font-size: 14px;
+      color: #FCEA01;
+  }
+
+  .footer-imagen-movil{
+      padding-top: 2%;
+  }
+
+}
+@media only screen and  (min-width: 576px) {
+  .footer-movil{
+      display: block;
+  }
+  .footer-txt{
+      display: none !important;
+  }
+  .footer-texto{
+      font-size: 14px;
+      color: #FCEA01;
+  }
+
+  .footer-imagen-movil{
+      padding-top: 2%;
+  }
+}
+@media only screen and  (min-width: 768px) {
+  .footers {
+    height: 114px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black !important;
+    text-align: center;
+}
+  .footer-pacueco {
+      float: right !important;
+      margin-right: -100%;
+      margin-top: -13%;
+  }
+   .footer-texto-girasolo{
+      padding-top: 6% !important;
+      font-size: 14px;
+   }
+
+  .footer-movil{
+      display: none !important;
+  }
+  .footer-txt{
+      display: block !important;
+      font-size: 18px;
+  }
+}
+@media only screen and  (min-width: 992px) {
+
+  .footers {
+    height: 114px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black !important;
+    text-align: center;
+}
+  .footer-pacueco {
+      float: right !important;
+      margin-right: -100%;
+      margin-top: -13%;
+  }
+   .footer-texto-girasolo{
+      padding-top: 6% !important;
+      font-size: 14px;
+   }
+
+  .footer-movil{
+      display: none !important;
+  }
+  .footer-txt{
+      display: block !important;
+      font-size: 18px;
+  }
+}
+@media only screen and  (min-width: 1200px) {
+  footers {
+    height: 112px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black !important;
+    text-align: center;
+}
+.footer-pacueco {
+  float: right !important;
+  margin-right: -100%;
+  margin-top: -12%;
+}
+   .footer-texto-girasolo{
+      padding-top: 6% !important;
+      font-size: 14px;
+   }
+
+  .footer-movil{
+      display: none !important;
+  }
+  .footer-txt{
+      display: block !important;
+      font-size: 18px;
+  }
+}
+@media only screen and  (min-width: 1600px) {
+  .footers {
+    height: 125px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black !important;
+    text-align: center;
+}
+  .footer-pacueco {
+      float: right !important;
+      margin-right: -100%;
+      margin-top: -9%;
+  }
+   .footer-texto-girasolo{
+      padding-top: 6% !important;
+      font-size: 14px;
+   }
+
+  .footer-movil{
+      display: none !important;
+  }
+  .footer-txt{
+      display: block !important;
+      font-size: 18px;
+  }
+}
+

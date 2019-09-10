@@ -604,7 +604,7 @@
   }
 
   .about-work-top{
-    margin-top: -25% !important;
+    margin-top: -15% !important;
   }
   .abou-work-ipad{
     display: block !important;
@@ -643,7 +643,7 @@
 .aboutwork-img {
   margin-top: 42% !important;
   margin-top: 15%;
-  height: 75vh;
+  height: 100vh;
   text-align: left;
   width: 100%;
   margin-left: 0% !important;

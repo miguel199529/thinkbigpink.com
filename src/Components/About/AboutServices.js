@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Image } from 'react-bootstrap';
-import Imagens from './../../Assets/img/about/im.png';
+import Imagens from './../../Assets/img/about/1.png';
 import './../../Assets/fonts/Hack-Regular.ttf';
 import './../../Style/AboutServices.css';
 class aboutServices extends Component {
@@ -31,7 +31,6 @@ class aboutServices extends Component {
               <li>* Digital strategy and consulting.</li>
               <li>* Implementation of digital projects.</li>
             </ul>
-
           </div>
           <div className="about-services-ipad">
             <Image src={Imagens} className="aboutservices-img"></Image>

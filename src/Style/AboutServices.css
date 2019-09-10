@@ -72,7 +72,6 @@
   .about-service-div-yellow{
     display: none;
   }
-  /**/
   .aboutservices-img {
       margin-top: 42% !important;
       margin-top: 15%;
@@ -581,8 +580,8 @@
     margin-top: 15%;
     height: 75vh;
     text-align: left;
-    width: 100%;
-
+    width: 105%;
+    margin-left: -5%;
 }
 .about-service-text {
   font-size: 42px;
@@ -657,9 +656,9 @@
 .aboutservices-img {
   margin-top: 42% !important;
   margin-top: 15%;
-  height: 75vh;
+  height: 100vh;
   text-align: left;
-  width: 100%;
+  width: 100%
 }
    /*tablet*/
    .about-services-ipad{

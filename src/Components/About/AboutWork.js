@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Image } from 'react-bootstrap';
-import Imagens from './../../Assets/img/about/im.png';
+import Imagens from './../../Assets/img/about/4.png';
 import './../../Assets/fonts/Hack-Regular.ttf';
 import './../../Style/AboutWork.css';
 class aboutWork extends Component {

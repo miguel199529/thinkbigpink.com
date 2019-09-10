@@ -70,7 +70,7 @@
   .about-arewe-div-yellow{
     display: none;
   }
-  /**/
+
   .aboutarewe-img {
       margin-top: 42% !important;
       margin-top: 15%;
@@ -86,7 +86,7 @@
   font-size: 16px;
   white-space: pre-wrap;
 }
-/*divs colores*/
+
 .div1{
   background-color: #FCEA01;
   border: #FCEA01;
@@ -122,7 +122,7 @@
   margin-bottom: -40%;
   margin-left: 1% !important;
 }
- /*tablet*/
+
  .about-arewe-ipad{
   display: none;
 }
@@ -145,7 +145,7 @@
   .about-arewe-div-yellow{
     display: none;
   }
-  /**/
+
   .aboutarewe-img {
       margin-top: 42% !important;
       margin-top: 15%;
@@ -162,7 +162,7 @@
   font-size: 16px;
   white-space: pre-wrap;
 }
-/*divs colores*/
+
 .div1{
   background-color: #FCEA01;
   border: #FCEA01;
@@ -198,7 +198,7 @@
   margin-bottom: -40%;
   margin-left: 1%;
 }
- /*tablet*/
+
  .about-arewe-ipad{
   display: none;
 }
@@ -224,7 +224,7 @@
   .about-arewe-div-yellow{
     display: none;
   }
-  /**/
+
   .aboutarewe-img {
       margin-top: 42% !important;
       margin-top: 15%;
@@ -241,7 +241,7 @@
   font-size: 16px;
   white-space: pre-wrap;
 }
-/*divs colores*/
+
 .div1{
   background-color: #FCEA01;
   border: #FCEA01;
@@ -277,7 +277,7 @@
   margin-bottom: -40%;
   margin-left: 1% !important;
 }
- /*tablet*/
+
  .about-arewe-ipad{
   display: none;
 }
@@ -372,7 +372,7 @@
   .about-arewe-div-yellow{
     display: none;
   }
-  /**/
+
   .aboutarewe-img {
       margin-top: 10% !important;
       margin-top: 15%;
@@ -394,7 +394,7 @@
   margin-top: 12%;
   margin-left: 5%;
 }
-/*divs colores*/
+
 .div1{
   background-color: #FCEA01;
   border: #FCEA01;
@@ -430,7 +430,7 @@
   margin-bottom: -40%;
   margin-left: 5%;
 }
-/*tablet*/
+
 .abou-arewe-ipad{
   display: none;
 }
@@ -473,7 +473,7 @@
   margin-top: 18%;
   margin-left: 5%;
 }
-/*divs colores*/
+
 .div1{
   background-color: #FCEA01;
   border: #FCEA01;
@@ -509,7 +509,7 @@
   margin-bottom: -40%;
   margin-left: 5%;
 }
-/*tablet*/
+
 .abou-arewe-ipad{
   display: none;
 }
@@ -555,7 +555,7 @@
     display: block;
 
   }
-  /*tablet*/
+
   .about-arewe-ipad{
     display: none;
   }
@@ -609,7 +609,6 @@
     margin-left: -4%;
   }
 
-
   .about-arewe-div-yellow {
     background-color: #FCEA01;
     border: #FCEA01;
@@ -627,7 +626,7 @@
 .aboutarewe-img {
   margin-top: 42% !important;
   margin-top: 15%;
-  height: 75vh;
+  height: 100vh;
   text-align: left;
   width: 105%;
   margin-left: -5%;
