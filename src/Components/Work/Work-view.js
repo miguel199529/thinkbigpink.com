@@ -7,8 +7,8 @@ import './../../Style/Proyect1.css';
 class WorkView extends Component {
   render() {
     return (
-      <div className="container-fluid">
-        <di className="row">
+      <div className="container-fluid work-top" id="Work">
+        <div className="row">
           <div className="col-md-4 card-margin">
             <Proyect1></Proyect1>
           </div>
@@ -18,7 +18,7 @@ class WorkView extends Component {
           <div className="col-md-4 card-margin">
             <Proyect3></Proyect3>
           </div>
-        </di>
+        </div>
       </div>
     );
   }

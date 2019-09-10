@@ -6,7 +6,7 @@ import AboutArewe from './AboutArewe';
 class about extends Component {
   render() {
     return (
-      <div>
+      <div id="About">
         <Aboutdevelop></Aboutdevelop>
         <AboutServices></AboutServices>
         <AboutWork></AboutWork>

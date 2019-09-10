@@ -94,15 +94,19 @@ div.polaroid {
   .card-top{
     margin-top: 5%;
   }
+  .work-top{
+    margin-top: 5%;
+  }
 }
 @media only screen and (min-width: 1600px) {
-
   .card-margin{
     padding-left: 90px;
     padding-right: 90px;
   }
-
   .card-top{
     margin-top: 5%;
+  }
+  .work-top{
+    margin-top: 10%;
   }
 }
