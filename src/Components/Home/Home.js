@@ -6,7 +6,7 @@ import './../../Style/Home.css';
 class home extends Component {
   render() {
     return (
-      <div className=" container-fluid main-background">
+      <div className=" container-fluid main-background girasolo-index">
         <div className=" row center">
           <div className="col-md-12 center main-logo">
             <Image
@@ -16,7 +16,7 @@ class home extends Component {
           </div>
         </div>
         <div className="row main-translator">
-          <p className="texto"><i>&quot;SE HABLA ESPAÑOL&quot;</i></p>
+          <span className="texto">&#60;<span><i>&quot;SE HABLA ESPAÑOL&quot;</i></span>&#62;</span>
         </div>
       </div>
     );

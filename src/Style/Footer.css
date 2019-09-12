@@ -56,9 +56,10 @@
       color: #FCEA01;
   }
 
-  .footer-imagen-movil{
-      padding-top: 2%;
-  }
+  .footer-imagen-movil {
+    padding-top: 5%;
+    width: 60%;
+}
 }
 @media only screen and  (min-width: 414px) {
   .footer-movil{

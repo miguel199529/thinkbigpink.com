@@ -68,23 +68,25 @@ white-space: pre-wrap;
 @media only screen and  (min-width: 320px) {
   .contact-texto {
     margin-top: 2%;
-    font-size: 35px;
+    font-size: 23px;
     margin-left: 5%;
 }
-  .contact-texto-parrafo {
-      font-size: 16px !important;
-      margin-left: 5%;
-      white-space: pre-wrap;
-  }
+.contact-texto-parrafo {
+  margin-top: 5%;
+  font-size: 14px !important;
+  margin-left: 5%;
+  white-space: pre-wrap;
+}
 
-  .contact-texto-parrafosp {
-      padding-right: 2%;
-      font-size: 16px;
-      margin-left: 3%;
-      white-space: pre-wrap;
-      padding-left: 2%;
-      margin-top: -2%;
-  }
+.contact-texto-parrafosp {
+  padding-right: 2%;
+  font-size: 14px;
+  margin-left: 3%;
+  white-space: pre-wrap;
+  padding-left: 2%;
+  margin-top: -2%;
+}
+
   .contact-texto-parrafos{
       padding-right: 2%;
       font-size: 16px;
@@ -94,16 +96,11 @@ white-space: pre-wrap;
       margin-top: -6%;
   }
   .contact {
-      width: 70%;
-      text-align: left;
-      margin-left: 2%;
-      padding-top: 3%;
-  }
-  texto {
-      margin-top: 2%;
-      font-size: 24px;
-      margin-left: 6%;
-  }
+    width: 80%;
+    text-align: left;
+    margin-left: 0%;
+    padding-top: 10%;
+}
 }
 
 @media only screen and  (min-width: 576px) {
@@ -142,10 +139,15 @@ white-space: pre-wrap;
   }
  }
 @media only screen and  (min-width: 768px) {
+  .contact-texto {
+    margin-top: 2%;
+    font-size: 38px;
+    margin-left: 5%;
+}
 
   .contact-texto-parrafosp {
       padding-right: 2%;
-      font-size: 26px;
+      font-size: 24px;
       margin-left: 3%;
       white-space: pre-wrap;
       padding-left: 2%;
@@ -153,7 +155,7 @@ white-space: pre-wrap;
   }
   .contact-texto-parrafos{
       padding-right: 2%;
-      font-size: 26px;
+      font-size: 24px;
       margin-left: 3%;
       white-space: pre-wrap;
       padding-left: 2%;
@@ -161,13 +163,13 @@ white-space: pre-wrap;
   }
   .contact-texto-parrafo {
       padding-right: 2%;
-      font-size: 26px !important;
+      font-size: 24px !important;
       margin-left: 5%;
       white-space: pre-wrap;
       padding-left: 2%;
   }
   .contact {
-    width: 60%;
+    width: 65%;
     text-align: left;
     margin-left: 2%;
     padding-top: 10%;
@@ -175,6 +177,11 @@ white-space: pre-wrap;
 
 }
 @media only screen and  (min-width: 992px) {
+  .contact-margin-top {
+    margin-top: 40%;
+}
+
+
   .contact-texto-parrafosp {
       padding-right: 2%;
       font-size: 24px !important;
@@ -199,7 +206,7 @@ white-space: pre-wrap;
       padding-left: 2%;
   }
   .contact {
-      width: 50% !important;
+      width: 58% !important;
       text-align: left;
       margin-left: 2%;
       padding-top: 3%;

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Image } from 'react-bootstrap';
 import contacto from './../../Assets/img/LogotipoOficial.svg';
-import {Link} from 'react-router-dom';
 import './../../Style/Contact.css';
 class Contact extends Component {
   render() {
@@ -11,7 +10,7 @@ class Contact extends Component {
           <Image src={contacto} className="contact" />
         </div>
         <div className="row">
-          <p className="contact-texto texto"> Think Big <Link to="#" className="contact-pink texto parpadea">Pink</Link> &#124;</p>
+          <span className="contact-texto texto"> Think Big <span className="contact-pink texto">Pink</span><span className="parpadea">&#124;</span></span>
         </div>
         <p className="contact-texto-parrafo texto">Let´s do business together; We´d love to hear &#91;and <i>develop</i>&#93; your ideas.</p>
         <p className="contact-texto-parrafo texto"> &nbsp; &nbsp; You can write to our contact email &#60;<a href ="mailto:hi@girasolo.com"  className="contact-blue texto"><i> hi@girasolo.com</i> </a> &#62;, you can send us a whatsapp: &#60; <a href="tel:352 125 4523" className="contact-blue texto"><i>+52 352 125 4523 </i></a> &#62;</p>
