@@ -11,7 +11,7 @@ class aboutdevelop extends Component {
           <div className="row">
             <div className="col-md-4 aboutDevelop-main aboutDevelop-main-spacing-row aboutDevelop-bordeer">
               <p className="aboutDevelop-main-spacing aboutDevelop-main-spacing-text texto">
-              &frasl;  &frasl;We develop colorful</p>
+                 We develop colorful</p>
               <div className="about-barra about-barra-display">
                 <div className="row about-box-color-movil about-divs-pink">
                 </div>
@@ -22,8 +22,8 @@ class aboutdevelop extends Component {
                 <div className="row about-box-color-movil about-divs-black">
                 </div>
               </div>
-              <p className="aboutDevelop-main-wedevelop texto about-divs-margins about-text ">We develop colorful strategies to help brands live successfully in a digital
-world. &#124;</p>
+              <p className="aboutDevelop-main-wedevelop texto about-divs-margins about-text ">strategies to help brands live successfully in a digital
+world.<span className="parpadea"> &#124;</span></p>
               <div className="about-barra about-barra-ipad">
                 <div className="row about-box-color-movil about-divs-pink">
                 </div>
@@ -49,7 +49,7 @@ world. &#124;</p>
                 <div className="divscolores">
                 </div>
                 <div className="divs-amarillo"></div>
-                <h2 className="aboutDevelop-main-branding-born tablet">&frasl;  &frasl; We were born within a branding &nbsp; </h2>
+                <h2 className="aboutDevelop-main-branding-born tablet">&frasl;&frasl;We were born within a branding &nbsp; </h2>
                 company; therefore, we like attractive, colorful and well executed things, we can’t avoid it, it’s inside our DNA.
                 We work with projects that include: software development, design and multimedia; we collaborate every day with teams from different disciplines that also provide different perspectives.
               </div>

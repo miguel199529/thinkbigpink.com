@@ -8,7 +8,7 @@
 .aboutwork-img{
   width: 100%;
   margin-top: 15%;
-  height: 50vh;
+
 }
 .aboutwork-texto{
   margin-top: 12%;
@@ -76,7 +76,7 @@
   .aboutwork-img {
       margin-top: 0% !important;
       margin-top: 15%;
-      height: 50vh;
+
       text-align: left;
       width: 100% !important;
 }
@@ -150,7 +150,7 @@
   .aboutwork-img {
       margin-top: 0% !important;
       margin-top: 15%;
-      height: 50vh;
+
       text-align: left;
       width: 100%;
 }
@@ -160,7 +160,7 @@
 }
 .aboutwork-lis {
   list-style-type: none;
-  font-size: 14px;
+  font-size: 16px;
   white-space: pre-wrap;
 }
 .div1{
@@ -229,7 +229,7 @@
   .aboutwork-img {
       margin-top: 0% !important;
       margin-top: 15%;
-      height: 50vh;
+
       text-align: left;
       width: 100%;
 }
@@ -308,7 +308,7 @@
   .aboutwork-img {
       margin-top: 0% !important;
       margin-top: 15%;
-      height: 50vh;
+
       text-align: left;
       width: 100% !important;
 }
@@ -387,7 +387,7 @@
   .aboutwork-img {
       margin-top: 42% !important;
       margin-top: 15%;
-      height: 50vh;
+
       text-align: left;
       width: 100% !important;
 }
@@ -467,7 +467,7 @@
   .aboutwork-img {
       margin-top: 42% !important;
       margin-top: 15%;
-      height: 50vh;
+
       text-align: left;
       width: 100% !important;
 
@@ -479,13 +479,13 @@
 }
 .aboutwork-lis {
   list-style-type: none;
-  font-size: 32px;
+  font-size: 30px;
   white-space: pre-wrap;
   margin-bottom: 22%;
-  margin-top: 18%;
+  margin-top: 22%;
   margin-left: 5%;
 }
-/*divs colores*/
+
 .div1{
   background-color: #FCEA01;
   border: #FCEA01;
@@ -521,7 +521,7 @@
   margin-bottom: -40%;
   margin-left: 5%;
 }
-/*tablet*/
+
 .abou-work-ipad{
   display: none;
 }
@@ -558,7 +558,7 @@
     display: block;
 
   }
-  /*tablet*/
+
   .about-work-ipad{
     display: none;
   }
@@ -566,16 +566,16 @@
     display: block !important;
   }
   .aboutwork-img {
-    margin-top: 42% !important;
+    margin-top: 48% !important;
     margin-top: 15%;
-    height: 75vh;
+
     text-align: left;
     width: 100%;
 
     display: none;
 }
 .about-work-text {
-  font-size: 42px;
+  font-size: 36px;
   margin-left: 5%;
   margin-top: -18%;
 }
@@ -590,7 +590,7 @@
 }
 .aboutwork-lis {
   list-style-type: none;
-  font-size: 26px;
+  font-size: 22px !important;
   white-space: pre-wrap;
   margin-bottom: 22%;
   margin-top: 18%;
@@ -598,6 +598,14 @@
 }
 }
 @media only screen and (min-width: 1600px) {
+  .aboutwork-lis {
+    list-style-type: none;
+    font-size: 26px !important;
+    white-space: pre-wrap;
+    margin-bottom: 22%;
+    margin-top: 18% !important;
+    margin-right: 8% !important;
+}
   .about-work-paddings{
     padding-left: 0%;
     padding-right: 0%;
@@ -643,12 +651,10 @@
 .aboutwork-img {
   margin-top: 42% !important;
   margin-top: 15%;
-  height: 100vh;
   text-align: left;
   width: 100%;
   margin-left: 0% !important;
 }
-   /*tablet*/
    .about-work-ipad{
     display: none;
   }

@@ -19,21 +19,21 @@ class People extends Component {
             <Andrea></Andrea>
           </div>
           <div className="col-md-4 people-margin">
-            <Chen></Chen>
+            <Abel></Abel>
           </div>
           <div className="col-md-4 people-margin">
-            <Eduardo></Eduardo>
+            <Leyva></Leyva>
           </div>
         </div>
         <div className="row team-top">
           <div className="col-md-4 people-margin">
-            <Leyva></Leyva>
-          </div>
-          <div className="col-md-4 people-margin">
-            <Abel></Abel>
-          </div>
-          <div className="col-md-4 people-margin">
             <Christian></Christian>
+          </div>
+          <div className="col-md-4 people-margin">
+            <Chen></Chen>
+          </div>
+          <div className="col-md-4 people-margin">
+            <Nancy></Nancy>
           </div>
         </div>
         <div className="row team-top">
@@ -44,7 +44,7 @@ class People extends Component {
             <Leonardo></Leonardo>
           </div>
           <div className="col-md-4 people-margin">
-            <Nancy></Nancy>
+            <Eduardo></Eduardo>
           </div>
         </div>
       </div>

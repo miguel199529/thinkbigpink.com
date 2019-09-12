@@ -9,7 +9,6 @@
 .aboutarewe-img{
   width: 100%;
   margin-top: 15%;
-  height: 50vh;
 }
 .aboutarewe-texto{
   margin-top: 12%;
@@ -74,7 +73,6 @@
   .aboutarewe-img {
       margin-top: 42% !important;
       margin-top: 15%;
-      height: 50vh;
       width: 100% !important;
 
 }
@@ -149,7 +147,6 @@
   .aboutarewe-img {
       margin-top: 42% !important;
       margin-top: 15%;
-      height: 50vh;
       width: 100%;
 
 }
@@ -228,7 +225,6 @@
   .aboutarewe-img {
       margin-top: 42% !important;
       margin-top: 15%;
-      height: 50vh;
       width: 100% !important;
 
 }
@@ -302,7 +298,6 @@
   .aboutarewe-img {
       margin-top: 42% !important;
       margin-top: 15%;
-      height: 50vh;
       width: 100% !important;
 
 }
@@ -376,9 +371,8 @@
   .aboutarewe-img {
       margin-top: 10% !important;
       margin-top: 15%;
-      height: 50vh;
       text-align: left;
-      width: 105%;
+      width: 105% !important;
       margin-left: -5%;
 }
 .about-arewe-text {
@@ -439,9 +433,9 @@
 }
 }
 @media only screen and (min-width: 992px) {
-  .aboutArewe-top{
-    margin-top: -25%;
-  }
+  .aboutArewe-top {
+    margin-top: -50%;
+}
   .about-arewe-div{
     display: none;
   }
@@ -451,13 +445,12 @@
   .about-arewe-div-yellow{
     display: none;
   }
-  /**/
+
   .aboutarewe-img {
       margin-top: 42% !important;
       margin-top: 15%;
-      height: 50vh;
       text-align: left;
-      width: 105%;
+      width: 100%;
       margin-left: -5%;
 }
 .about-arewe-text {
@@ -467,10 +460,10 @@
 }
 .aboutarewe-lis {
   list-style-type: none;
-  font-size: 36px;
+  font-size: 30px;
   white-space: pre-wrap;
   margin-bottom: 34%;
-  margin-top: 18%;
+  margin-top: 22%;
   margin-left: 5%;
 }
 
@@ -518,21 +511,25 @@
 }
 }
 @media only screen and (min-width: 1200px) {
+  .aboutArewe-top {
+    margin-top: -20%;
+}
   .aboutarewe-lis {
     list-style-type: none;
-    font-size: 26px;
+    font-size: 22px !important;
     white-space: pre-wrap;
     margin-bottom: 34%;
-    margin-top: 18%;
+    margin-top: 18% !important;
     margin-left: 5%;
 }
-  .about-arewe-text {
-    font-size: 32px !important;
-    margin-left: 5%;
-    margin-top: -2%;
+
+.about-arewe-text {
+  font-size: 36px;
+  margin-left: 5%;
+  margin-top: -2%;
 }
   .aboutarewe-texto{
-    margin-top: 32%;
+    margin-top: 24%;
   }
   .aboutarewe-colors{
     display: none;
@@ -565,9 +562,9 @@
   .aboutarewe-img {
     margin-top: 42% !important;
     margin-top: 15%;
-    height: 75vh;
+
     text-align: left;
-    width: 105%;
+    width: 100%;
     margin-left: -5%;
 }
 .about-arewe-text {
@@ -587,6 +584,14 @@
 
 }
 @media only screen and (min-width: 1600px) {
+  .aboutarewe-lis {
+    list-style-type: none;
+    font-size: 26px !important;
+    white-space: pre-wrap;
+    margin-bottom: 22%;
+    margin-top: 18% !important;
+    margin-left: 5%;
+}
   .aboutArewe-top{
     margin-top: -15%;
   }
@@ -619,16 +624,15 @@
     margin-bottom: -12%;
 }
 .about-arewe-text {
-  font-size: 34px !important;
+  font-size: 34px;
   margin-left: 5% !important;
-  margin-top: 2% !important;
+  margin-top: 2%;
 }
 .aboutarewe-img {
   margin-top: 42% !important;
   margin-top: 15%;
-  height: 100vh;
   text-align: left;
-  width: 105%;
+  width: 100%;
   margin-left: -5%;
 }
 .about-arewe-div-blue {
@@ -636,8 +640,6 @@
   display: block;
   margin-left: 45%;
 }
-
-   /*tablet*/
    .about-arewe-ipad{
     display: none;
   }
