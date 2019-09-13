@@ -516,7 +516,7 @@
 }
   .aboutarewe-lis {
     list-style-type: none;
-    font-size: 22px !important;
+    font-size: 16px !important;
     white-space: pre-wrap;
     margin-bottom: 34%;
     margin-top: 18% !important;
@@ -524,7 +524,7 @@
 }
 
 .about-arewe-text {
-  font-size: 36px;
+  font-size: 16px;
   margin-left: 5%;
   margin-top: -2%;
 }
@@ -568,7 +568,7 @@
     margin-left: -5%;
 }
 .about-arewe-text {
-  font-size: 42px;
+  font-size: 26px;
   margin-left: 5%;
   margin-top: -2%;
 }
@@ -586,7 +586,7 @@
 @media only screen and (min-width: 1600px) {
   .aboutarewe-lis {
     list-style-type: none;
-    font-size: 26px !important;
+    font-size: 22px !important;
     white-space: pre-wrap;
     margin-bottom: 22%;
     margin-top: 18% !important;
@@ -624,7 +624,7 @@
     margin-bottom: -12%;
 }
 .about-arewe-text {
-  font-size: 34px;
+  font-size: 24px;
   margin-left: 5% !important;
   margin-top: 2%;
 }

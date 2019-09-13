@@ -17,11 +17,14 @@
   }
   .main-translator{
     float: right !important;
-    color: #E3097E;
+
     font-size: 22px;
     text-align: right;
     margin-top: 10%;
     margin-right: 2%;
+  }
+  .maincolor{
+    color: #E3097E !important;
   }
 
   @font-face {

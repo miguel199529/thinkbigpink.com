@@ -575,7 +575,7 @@
     display: none;
 }
 .about-work-text {
-  font-size: 36px;
+  font-size: 26px;
   margin-left: 5%;
   margin-top: -18%;
 }
@@ -590,17 +590,18 @@
 }
 .aboutwork-lis {
   list-style-type: none;
-  font-size: 22px !important;
+  font-size: 16px !important;
   white-space: pre-wrap;
   margin-bottom: 22%;
   margin-top: 18%;
   margin-left: 5%;
+  margin-right: 5%;
 }
 }
 @media only screen and (min-width: 1600px) {
   .aboutwork-lis {
     list-style-type: none;
-    font-size: 26px !important;
+    font-size: 22px !important;
     white-space: pre-wrap;
     margin-bottom: 22%;
     margin-top: 18% !important;
@@ -638,13 +639,13 @@
     background-color: #FCEA01;
     border: #FCEA01;
     height: 7vh;
-    width: 374px;
+    width: 385px !important;
     text-align: right;
     margin-left: -13% !important;
     margin-bottom: -12%;
 }
   .about-work-text {
-    font-size: 34px;
+    font-size: 24px;
     margin-left: 5%;
     margin-top: 2%;
 }

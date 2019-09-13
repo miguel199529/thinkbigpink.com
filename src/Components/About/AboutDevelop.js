@@ -2,16 +2,22 @@ import React, { Component } from 'react';
 import { Image } from 'react-bootstrap';
 import './../../Assets/fonts/Hack-Regular.ttf';
 import Imagens from './../../Assets/img/about/2.png';
+import PropTypes from 'prop-types';
 import './../../Style/AboutDevelop.css';
+import {translate} from 'react-translate';
+
 class aboutdevelop extends Component {
+
   render() {
+    let { t } = this.props;
+
     return (
       <div>
         <div className="container-fluid center aboutDevelop margin-tops" id="#/Develop">
           <div className="row">
             <div className="col-md-4 aboutDevelop-main aboutDevelop-main-spacing-row aboutDevelop-bordeer">
-              <p className="aboutDevelop-main-spacing aboutDevelop-main-spacing-text texto">
-                 We develop colorful</p>
+              <p className="aboutDevelop-main-spacing aboutDevelop-main-spacing-text texto">{t('title')}
+              </p>
               <div className="about-barra about-barra-display">
                 <div className="row about-box-color-movil about-divs-pink">
                 </div>
@@ -22,8 +28,7 @@ class aboutdevelop extends Component {
                 <div className="row about-box-color-movil about-divs-black">
                 </div>
               </div>
-              <p className="aboutDevelop-main-wedevelop texto about-divs-margins about-text ">strategies to help brands live successfully in a digital
-world.<span className="parpadea"> &#124;</span></p>
+              <p className="aboutDevelop-main-wedevelop texto about-divs-margins about-text ">{t('titleAbout')}<span className="parpadea"> &#124;</span></p>
               <div className="about-barra about-barra-ipad">
                 <div className="row about-box-color-movil about-divs-pink">
                 </div>
@@ -49,12 +54,12 @@ world.<span className="parpadea"> &#124;</span></p>
                 <div className="divscolores">
                 </div>
                 <div className="divs-amarillo"></div>
-                <h2 className="aboutDevelop-main-branding-born tablet">&frasl;&frasl;We were born within a branding &nbsp; </h2>
-                company; therefore, we like attractive, colorful and well executed things, we can’t avoid it, it’s inside our DNA.
-                We work with projects that include: software development, design and multimedia; we collaborate every day with teams from different disciplines that also provide different perspectives.
+                <h2 className="aboutDevelop-main-branding-born tablet">&frasl;&frasl;{t('contentAboutDevelop')} &nbsp; </h2>
+                {t('aboutcontent')}
+
               </div>
               <p className="texto about-main-sectors tablet">
-                We have accomplished projects for different industries, from health to government sector, from Mexico to Japan, connecting user needs with business objectives.
+                {t('aboutcontentproyects')}
               </p>
               <div className="divs-azul tablet"></div>
               <p className="texto about-main-sectors about-box-color-row tablet">
@@ -72,16 +77,16 @@ world.<span className="parpadea"> &#124;</span></p>
               </div>
               <div className="divs-amarillo"></div>
               <p className="texto about-main-sectors about-selector about-branding ">
-              &frasl; We were born within a branding &nbsp;
+              &frasl;{t('contentAboutDevelop')}&nbsp;
               </p>
               <p className="texto about-main-sectors about-have-selector">
-                We have accomplished projects for different industries, from health to government sector, from Mexico to Japan, connecting user needs with business objectives.
+                {t('aboutcontentproyects')}
               </p>
               <p className="texto about-main-sectors ">
-                company; therefore, we like attractive, colorful and well executed things, we can’t avoid it, it’s inside our DNA.
-                We work with projects that include: software development, design and multimedia; we collaborate every day with teams from different disciplines that also provide different perspectives.</p>
+                {t('aboutcontent')}
+              </p>
               <p className="texto about-main-sectors">
-                We have accomplished projects for different industries, from health to government sector, from Mexico to Japan, connecting user needs with business objectives.
+                {t('aboutcontentproyects')}
               </p>
               <div className="divs-azul"></div>
               <p className="texto about-main-sectors about-bigpink">
@@ -99,5 +104,14 @@ world.<span className="parpadea"> &#124;</span></p>
     );
   }
 }
-export default aboutdevelop;
+aboutdevelop.propTypes={
+  t: PropTypes.func.isRequired,
+  name: PropTypes.string,
+  title: PropTypes.string,
+  titleAbout: PropTypes.string,
+  contentAboutDevelop: PropTypes.string,
+  aboutcontent: PropTypes.string,
+  aboutcontentproyects: PropTypes.string,
+};
+export default translate('about')(aboutdevelop);
 

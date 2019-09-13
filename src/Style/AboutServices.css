@@ -533,15 +533,14 @@
   }
   .aboutservice-lis {
     list-style-type: none;
-    font-size: 22px;
+    font-size: 16px;
     white-space: pre-wrap;
     margin-bottom: 34%;
     margin-top: 18%;
     margin-left: 5%;
 }
   .about-service-text {
-    font-size: 36px !important;
-    margin-left: 5%;
+    font-size: 26%;
     margin-top: -2%;
 }
   .aboutservices-texto{
@@ -584,7 +583,7 @@
     margin-left: -5%;
 }
 .about-service-text {
-  font-size: 42px;
+  font-size: 26px;
   margin-left: 5%;
   margin-top: -2%;
 }
@@ -618,7 +617,7 @@
   margin-top: 10%;
 }
 .about-service-text {
-  font-size: 42px;
+  font-size: 30px;
   margin-left: -2% !important;
   margin-top: -2%;
 }
@@ -649,7 +648,7 @@
   }
 
   .about-service-text {
-    font-size: 34px !important;
+    font-size: 24px !important;
     margin-left: 5%;
     margin-top: 2%;
 }
@@ -673,7 +672,7 @@
 }
 .aboutservice-lis {
   list-style-type: none;
-  font-size: 26px !important;
+  font-size: 22px !important;
   white-space: pre-wrap;
   margin-bottom: 34%;
   margin-top: 18%;

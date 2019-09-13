@@ -3,8 +3,11 @@ import { Image } from 'react-bootstrap';
 import Imagens from './../../Assets/img/about/1.png';
 import './../../Assets/fonts/Hack-Regular.ttf';
 import './../../Style/AboutServices.css';
+import {translate} from 'react-translate';
+import PropTypes from 'prop-types';
 class aboutServices extends Component {
   render() {
+    let { t } = this.props;
     return (
       <div className="container-fluid">
         <div className="row about-service-top">
@@ -18,7 +21,7 @@ class aboutServices extends Component {
             </div>
             <div className="about-service-div-yellow">
             </div>
-            <p className="texto about-service-text">What we Offer:</p>
+            <p className="texto about-service-text">{t('titleservices')}</p>
             <div className="aboutservices-colors">
               <div className="div1"> </div>
               <div className="div2"> </div>
@@ -26,10 +29,10 @@ class aboutServices extends Component {
               <div className="div4"> </div>
             </div>
             <ul className="aboutservice-lis texto about-services-text">
-              <li>* Design and development of digital products.</li>
-              <li>* UX + UI Consultancy.</li>
-              <li>* Digital strategy and consulting.</li>
-              <li>* Implementation of digital projects.</li>
+              <li>* {t('contServices1')}</li>
+              <li>* {t('contServices2')}</li>
+              <li>* {t('contServices3')}</li>
+              <li>* {t('contServices4')} </li>
             </ul>
           </div>
           <div className="about-services-ipad">
@@ -53,5 +56,13 @@ class aboutServices extends Component {
     );
   }
 }
-export default aboutServices;
+aboutServices.propTypes={
+  t: PropTypes.func.isRequired,
+  name: PropTypes.string,
+  contServices1: PropTypes.string,
+  contServices2: PropTypes.string,
+  contServices3: PropTypes.string,
+  contServices4: PropTypes.string,
+};
+export default translate('aboutservices') (aboutServices);
 

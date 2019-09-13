@@ -3,12 +3,15 @@ import './../../App.css';
 import Toolbar from './../../Components/Menu/Toolbar';
 import SideDrawer from './../SideDRawer/SideDrawer';
 import Backdrop from './../../Components/Backdrop/Backdrop';
+import PropTypes from 'prop-types';
+
 class Menu extends Component {
 
   constructor(props) {
     super(props);
     this.state = {
       sideDrawerOPen: false,
+
     };
 
     this.drawerToggleClickHandler=this.drawerToggleClickHandler.bind(this);
@@ -26,6 +29,7 @@ class Menu extends Component {
   render() {
     let backdrop;
 
+
     if (this.state.sideDrawerOPen) {
 
       backdrop = <Backdrop click={this.backdropClickHandler}></Backdrop>;
@@ -35,7 +39,7 @@ class Menu extends Component {
       <div style={{ height: '100%' }}>
         <Toolbar drawerClickHandler={this.drawerToggleClickHandler}></Toolbar>
         <SideDrawer show={this.state.sideDrawerOPen}
-          click={this.backdropClickHandler}></SideDrawer>
+          click={this.backdropClickHandler} name={this.props.name}></SideDrawer>
 
         {backdrop}
         <main style={{ marginTop: '0px' }}>
@@ -46,4 +50,7 @@ class Menu extends Component {
     );
   }
 }
+Menu.propTypes={
+  name: PropTypes.string,
+};
 export default Menu;
