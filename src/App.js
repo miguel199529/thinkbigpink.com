@@ -9,21 +9,36 @@ import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
 import Girasolo from './Components/Girasolo/Girasolo';
 import Menu from './Components/Menu/Menu';
-
+import { TranslatorProvider } from 'react-translate';
+import Button from './Components/Traduccion/Button';
 class App extends Component {
-  render() {
-    return (
+
+  _getLayout(lang) {
+    return (<TranslatorProvider translations={require('./Components/Traduccion/' + lang + '.json')}>
+      <div>
+        <Button name="login" />
+        <Button name="create_account" />
+      </div>
       <Router>
-        <Menu></Menu>
-        <Home></Home>
-        <About></About>
-        <WorkView></WorkView>
+        <Menu name="txt"></Menu>
+        <Home name="txt"></Home>
+        <About name="txt"></About>
+        <WorkView name="txt"></WorkView>
         <People></People>
-        <Girasolo></Girasolo>
-        <Contact></Contact>
+        <Girasolo name="txt"></Girasolo>
+        <Contact name="txt"></Contact>
         <Footer></Footer>
       </Router>
-    );
+    </TranslatorProvider>);
+  }
+
+  render() {
+    let url = window.location.href;
+    if (url.search('/en') !== -1) {
+      return this._getLayout('en');
+    } else {
+      return this._getLayout('es');
+    }
   }
 }
 export default App;

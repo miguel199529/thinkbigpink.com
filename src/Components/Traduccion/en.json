@@ -1,0 +1,70 @@
+{
+    "locale"     : "en-us",
+    "buttons"     : {
+        "login" : "Log in",
+        "create_account" : "Create Account"
+
+  },
+  "about" :{
+    "title" : "We develop colorful",
+    "titleAbout" : "strategies to help brands live successfully in a digital world.",
+    "contentAboutDevelop": "We were born within a branding",
+    "aboutcontent": "company; therefore, we like attractive, colorful and well executed things, we can’t avoid it, it’s inside our DNA. We work with projects that include: software development, design and multimedia; we collaborate every day with teams from different disciplines that also provide different perspectives.",
+    "aboutcontentproyects": " We have accomplished projects for different industries, from health to government sector, from Mexico to Japan, connecting user needs with business objectives."
+
+  },
+  "aboutservices":{
+    "titleservices":"What we Offer:",
+    "contServices1": "Design and development of digital products.",
+    "contServices2": "UX + UI Consultancy.",
+    "contServices3": "Digital strategy and consulting.",
+    "contServices4": "Implementation of digital projects."
+  },
+  "aboutWork":{
+    "worktitle": "How we work:",
+    "workul1": "We analyze and understand the processes of the users.",
+    "workul2": " We propose technologies and architecture.",
+    "workul3": "We plan deliveries under agile methodologies.",
+    "workul4": "We run the project together developers and designers."
+  },
+  "aboutArewe": {
+    "aboutarewetitle": "Who are we:",
+    "areweul1": "Founded in 2015.",
+    "areweul2": "Based in Pacueco Mx.",
+    "areweul3": "Developers, strategists and digital artists.",
+    "areweul4": "Projects in Mexico, Japan, and US."
+  },
+  "commingsoon":{
+    "cominsoontitle": "Name of Proyect",
+    "type":"Type of Proyect"
+  },
+
+  "girasolo":{
+
+    "girasolocont": "We are Girasolo´s younger brother, an agency specialized in visual communication and digital marketing.",
+    "girasoloparrafo2": "We team up with them to make functional and lovely projects.",
+    "girasoloLink": "Check them out at:"
+  },
+  "contact":{
+    "contactparrafo1": "Let´s do business together; We´d love to hear [and develop] your ideas.",
+    "contactparrafo2": "You can write to our contact email",
+    "contactparrafolink": ", you can send us a whatsapp:",
+    "contactparrafo": "r give us a call.",
+    "contactvisit":"Visit us, we are located in:",
+    "redes": "One last thing: please don´t forget to visit our Social Networks:",
+    "blog":"or read our",
+    "translate": "SE HABLA ESPAÑOL"
+  },
+  "home":{
+    "home":"SE HABLA ESPAÑOL"
+  },
+  "nav":{
+    "nav":"INGLISH"
+  }
+
+
+
+
+
+
+}

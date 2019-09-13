@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Image } from 'react-bootstrap';
 import footer from './../../Assets/img/PacUeco.svg';
 import './../../Style/Footer.css';
-class Contact extends Component {
+class Footer extends Component {
   render() {
     return (
       <div className="container-fluid footers">
@@ -30,4 +30,4 @@ class Contact extends Component {
     );
   }
 }
-export default Contact;
+export default Footer;

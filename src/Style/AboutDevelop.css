@@ -822,7 +822,7 @@ display: none;
 @media only screen and (min-width: 1200px) {
   .aboutDevelop-main-branding {
     padding-top: 0%;
-    font-size: 19px;
+    font-size: 16px;
     margin-left: 10%;
     text-align: left;
     white-space: pre-wrap;
@@ -830,13 +830,13 @@ display: none;
 }
 .aboutDevelop-main-branding-born {
   padding-top: 1%;
-  font-size: 19px;
+  font-size: 16px;
   margin-left: 2%;
   padding-left: 5%;
   text-align: left;
 }
 .about-main-sectors {
-  font-size: 19px !important;
+  font-size: 16px !important;
   margin-left: 10%;
   white-space: pre-wrap;
   padding-right: 10%;
@@ -877,12 +877,12 @@ display: none;
   .aboutDevelop-main-spacing-text {
     word-spacing: 10% !important;
     background-color: #FCEA01;
-    font-size: 24px;
+    font-size: 20px;
     padding-left: 10%;
     margin-right: 17%;
 }
 .aboutDevelop-main-wedevelop {
-  font-size: 24px !important;
+  font-size: 20px !important;
   text-align: left;
   margin-left: 10%;
   margin-right: 3%;
@@ -976,12 +976,12 @@ display: none;
   .aboutDevelop-main-spacing-text {
     word-spacing: 10% !important;
     background-color: #FCEA01;
-    font-size: 28px;
+    font-size: 24px;
     padding-left: 10%;
     margin-right: 17%;
 }
 .aboutDevelop-main-wedevelop {
-  font-size: 28px !important;
+  font-size: 24px !important;
   text-align: left;
   margin-left: 10%;
   margin-right: 17%;
@@ -1036,21 +1036,21 @@ display: none;
   }
   .aboutDevelop-main-branding {
     padding-top: 5%;
-    font-size: 24px;
+    font-size: 22px;
     margin-left: 10%;
     text-align: left;
     white-space: pre-wrap;
     padding-right: 10%;
 }
 .about-main-sectors {
-  font-size: 24px !important;
+  font-size: 22px !important;
   margin-left: 10%;
   white-space: pre-wrap;
   padding-right: 10%;
 }
 .aboutDevelop-main-branding-born {
   padding-top: 5%;
-  font-size: 24px;
+  font-size: 22px;
   margin-left: 2%;
   padding-left: 5%;
   text-align: left;

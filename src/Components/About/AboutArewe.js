@@ -3,8 +3,11 @@ import { Image } from 'react-bootstrap';
 import Imagens from './../../Assets/img/about/5.png';
 import './../../Assets/fonts/Hack-Regular.ttf';
 import './../../Style/AboutArewe.css';
+import { translate } from 'react-translate';
+import PropTypes from 'prop-types';
 class aboutArewe extends Component {
   render() {
+    let { t } = this.props;
     return (
       <div className="container-fluid">
         <div className="row aboutArewe-top">
@@ -18,7 +21,7 @@ class aboutArewe extends Component {
             </div>
             <div className="about-arewe-div-yellow">
             </div>
-            <p className="texto about-arewe-text">Who are we:</p>
+            <p className="texto about-arewe-text">{t('aboutarewetitle')}</p>
             <div className="aboutarewe-colors">
               <div className="div1"> </div>
               <div className="div2"> </div>
@@ -26,15 +29,15 @@ class aboutArewe extends Component {
               <div className="div4"> </div>
             </div>
             <ul className="aboutarewe-lis texto about-arewe-text">
-              <li>* Founded in 2015.</li>
-              <li>* Based in Pacueco Mx.</li>
-              <li>* Developers, strategists and digital artists.</li>
-              <li>* Projects in Mexico, Japan, and US.</li>
+              <li>*{t('areweul1')} </li>
+              <li>* {t('areweul2')}</li>
+              <li>* {t('areweul3')}</li>
+              <li>* {t('areweul4')}</li>
             </ul>
           </div>
           <div className="about-arewe-ipad">
             <Image src={Imagens} className="aboutarewe-img"></Image>
-            <p className="texto about-arewe-text">Who are we:</p>
+            <p className="texto about-arewe-text">{t('aboutarewetitle')}</p>
             <div className="aboutarewe-colors">
               <div className="div1"> </div>
               <div className="div2"> </div>
@@ -42,10 +45,10 @@ class aboutArewe extends Component {
               <div className="div4"> </div>
             </div>
             <ul className="aboutarewe-lis texto">
-              <li>* Founded in 2015.</li>
-              <li>* Based in Pacueco Mx.</li>
-              <li>* Developers, strategists and digital artists.</li>
-              <li>* Projects in Mexico, Japan, and US.</li>
+              <li>* {t('areweul1')}  </li>
+              <li>* {t('areweul2')} </li>
+              <li>* {t('areweul3')} </li>
+              <li>* {t('areweul4')} </li>
             </ul>
           </div>
         </div>
@@ -53,5 +56,14 @@ class aboutArewe extends Component {
     );
   }
 }
-export default aboutArewe;
+aboutArewe.propTypes = {
+  t: PropTypes.func.isRequired,
+  name: PropTypes.string,
+  aboutarewetitle: PropTypes.string,
+  areweul1: PropTypes.string,
+  areweul2: PropTypes.string,
+  areweul3: PropTypes.string,
+  areweul4: PropTypes.string,
+};
+export default translate('aboutArewe')(aboutArewe);
 

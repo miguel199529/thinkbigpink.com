@@ -1,7 +1,10 @@
 import React from 'react';
 import './SideDrawer.css';
 import PropTypes from 'prop-types';
+
+import {translate} from 'react-translate';
 const sideDrawer = props => {
+
   let drawerClasses = 'side-drawer';
   if (props.show){
     drawerClasses='side-drawer open';
@@ -19,12 +22,15 @@ const sideDrawer = props => {
         </li>
         <li> <a href="#Contact" onClick={props.click}>Contact</a>
         </li>
+        <li> <a href="/es" onClick={props.click}>Español</a></li>
       </ul>
     </nav>);
 };
 
 sideDrawer.propTypes={
+  t: PropTypes.func.isRequired,
   show: PropTypes.bool.isRequired,
-  click: PropTypes.func.isRequired
+  click: PropTypes.func.isRequired,
+  nav: PropTypes.string
 };
-export default sideDrawer;
+export default translate('SideDrawer')(sideDrawer);
