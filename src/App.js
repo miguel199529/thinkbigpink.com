@@ -34,10 +34,10 @@ class App extends Component {
 
   render() {
     let url = window.location.href;
-    if (url.search('/en') !== -1) {
-      return this._getLayout('en');
-    } else {
+    if (url.search('/es') !== -1) {
       return this._getLayout('es');
+    } else {
+      return this._getLayout('en');
     }
   }
 }

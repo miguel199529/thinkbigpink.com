@@ -7,7 +7,7 @@ import {translate} from 'react-translate';
 import PropTypes from 'prop-types';
 class aboutWork extends Component {
   render() {
-    let { t } = this.props;
+    let  traductor  = this.props.t;
     return (
       <div className="container-fluid about-work-top">
         <div className="row about-work-top">
@@ -19,7 +19,7 @@ class aboutWork extends Component {
             <div className="about-work-div-yellow">
             </div>
             <Image src={Imagens} className="aboutwork-img about-work-imagn-prin about-work-paddings"></Image>
-            <p className="texto about-work-text">{t('worktitle')}</p>
+            <p className="texto about-work-text">{traductor('worktitle')}</p>
             <div className="aboutwork-colors">
               <div className="div1"> </div>
               <div className="div2"> </div>
@@ -27,10 +27,10 @@ class aboutWork extends Component {
               <div className="div4"> </div>
             </div>
             <ul className="aboutwork-lis texto about-work-text">
-              <li>* {t('workul1')}</li>
-              <li>* {t('workul2')}</li>
-              <li>* {t('workul3')}</li>
-              <li>* {t('workul4')}</li>
+              <li>* {traductor('workul1')}</li>
+              <li>* {traductor('workul2')}</li>
+              <li>* {traductor('workul3')}</li>
+              <li>* {traductor('workul4')}</li>
             </ul>
           </div>
           <div className="col-md-8 abou-work-ipad about-work-imagen about-work-paddings">
@@ -38,7 +38,7 @@ class aboutWork extends Component {
           </div>
           <div className="about-work-ipad">
             <Image src={Imagens} className="aboutwork-img about-work-paddings"></Image>
-            <p className="texto about-work-text">What we Offer:</p>
+            <p className="texto about-work-text">{traductor('worktitle')}</p>
             <div className="aboutwork-colors">
               <div className="div1"> </div>
               <div className="div2"> </div>
@@ -46,10 +46,10 @@ class aboutWork extends Component {
               <div className="div4"> </div>
             </div>
             <ul className="aboutwork-lis texto">
-              <li>* We analyze and understand the processes of the users.</li>
-              <li>* We propose technologies and architecture.</li>
-              <li>* We plan deliveries under agile methodologies.</li>
-              <li>* We run the project together developers and designers.</li>
+              <li>* {traductor('workul1')}</li>
+              <li>* {traductor('workul2')}</li>
+              <li>* {traductor('workul3')}</li>
+              <li>* {traductor('workul4')}</li>
             </ul>
           </div>
         </div>

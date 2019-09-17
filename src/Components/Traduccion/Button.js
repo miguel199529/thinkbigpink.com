@@ -4,8 +4,8 @@ import {translate} from 'react-translate';
 
 class Button extends Component {
   render() {
-    let { t } = this.props;
-    return (<button>{t(this.props.name)}</button>
+    let  traductor  = this.props.t;
+    return (<button>{traductor(this.props.name)}</button>
 
 
     );

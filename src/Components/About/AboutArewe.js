@@ -7,7 +7,7 @@ import { translate } from 'react-translate';
 import PropTypes from 'prop-types';
 class aboutArewe extends Component {
   render() {
-    let { t } = this.props;
+    let  traductor  = this.props.t;
     return (
       <div className="container-fluid">
         <div className="row aboutArewe-top">
@@ -21,7 +21,7 @@ class aboutArewe extends Component {
             </div>
             <div className="about-arewe-div-yellow">
             </div>
-            <p className="texto about-arewe-text">{t('aboutarewetitle')}</p>
+            <p className="texto about-arewe-text">{traductor('aboutarewetitle')}</p>
             <div className="aboutarewe-colors">
               <div className="div1"> </div>
               <div className="div2"> </div>
@@ -29,15 +29,15 @@ class aboutArewe extends Component {
               <div className="div4"> </div>
             </div>
             <ul className="aboutarewe-lis texto about-arewe-text">
-              <li>*{t('areweul1')} </li>
-              <li>* {t('areweul2')}</li>
-              <li>* {t('areweul3')}</li>
-              <li>* {t('areweul4')}</li>
+              <li>*{traductor('areweul1')} </li>
+              <li>* {traductor('areweul2')}</li>
+              <li>* {traductor('areweul3')}</li>
+              <li>* {traductor('areweul4')}</li>
             </ul>
           </div>
           <div className="about-arewe-ipad">
             <Image src={Imagens} className="aboutarewe-img"></Image>
-            <p className="texto about-arewe-text">{t('aboutarewetitle')}</p>
+            <p className="texto about-arewe-text">{traductor('aboutarewetitle')}</p>
             <div className="aboutarewe-colors">
               <div className="div1"> </div>
               <div className="div2"> </div>
@@ -45,10 +45,10 @@ class aboutArewe extends Component {
               <div className="div4"> </div>
             </div>
             <ul className="aboutarewe-lis texto">
-              <li>* {t('areweul1')}  </li>
-              <li>* {t('areweul2')} </li>
-              <li>* {t('areweul3')} </li>
-              <li>* {t('areweul4')} </li>
+              <li>* {traductor('areweul1')}  </li>
+              <li>* {traductor('areweul2')} </li>
+              <li>* {traductor('areweul3')} </li>
+              <li>* {traductor('areweul4')} </li>
             </ul>
           </div>
         </div>
