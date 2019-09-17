@@ -7,7 +7,7 @@ import {translate} from 'react-translate';
 import PropTypes from 'prop-types';
 class aboutServices extends Component {
   render() {
-    let { t } = this.props;
+    let traductor  = this.props.t;
     return (
       <div className="container-fluid">
         <div className="row about-service-top">
@@ -21,7 +21,7 @@ class aboutServices extends Component {
             </div>
             <div className="about-service-div-yellow">
             </div>
-            <p className="texto about-service-text">{t('titleservices')}</p>
+            <p className="texto about-service-text">{traductor('titleservices')}</p>
             <div className="aboutservices-colors">
               <div className="div1"> </div>
               <div className="div2"> </div>
@@ -29,15 +29,15 @@ class aboutServices extends Component {
               <div className="div4"> </div>
             </div>
             <ul className="aboutservice-lis texto about-services-text">
-              <li>* {t('contServices1')}</li>
-              <li>* {t('contServices2')}</li>
-              <li>* {t('contServices3')}</li>
-              <li>* {t('contServices4')} </li>
+              <li>* {traductor('contServices1')}</li>
+              <li>* {traductor('contServices2')}</li>
+              <li>* {traductor('contServices3')}</li>
+              <li>* {traductor('contServices4')} </li>
             </ul>
           </div>
           <div className="about-services-ipad">
             <Image src={Imagens} className="aboutservices-img"></Image>
-            <p className="texto about-service-text">What we Offer:</p>
+            <p className="texto about-service-text">{traductor('titleservices')}</p>
             <div className="aboutservices-colors">
               <div className="div1"> </div>
               <div className="div2"> </div>
@@ -45,10 +45,10 @@ class aboutServices extends Component {
               <div className="div4"> </div>
             </div>
             <ul className="aboutservice-lis texto">
-              <li>* Design and development of digital products.</li>
-              <li>* UX + UI Consultancy.</li>
-              <li>* Digital strategy and consulting.</li>
-              <li>* Implementation of digital projects.</li>
+              <li>* {traductor('contServices1')}</li>
+              <li>* {traductor('contServices2')}</li>
+              <li>* {traductor('contServices3')}</li>
+              <li>*  {traductor('contServices4')}</li>
             </ul>
           </div>
         </div>

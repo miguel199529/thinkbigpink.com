@@ -9,14 +9,14 @@ import {translate} from 'react-translate';
 class aboutdevelop extends Component {
 
   render() {
-    let { t } = this.props;
+    let traductor = this.props.t;
 
     return (
       <div>
         <div className="container-fluid center aboutDevelop margin-tops" id="#/Develop">
           <div className="row">
             <div className="col-md-4 aboutDevelop-main aboutDevelop-main-spacing-row aboutDevelop-bordeer">
-              <p className="aboutDevelop-main-spacing aboutDevelop-main-spacing-text texto">{t('title')}
+              <p className="aboutDevelop-main-spacing aboutDevelop-main-spacing-text texto">{traductor('title')}
               </p>
               <div className="about-barra about-barra-display">
                 <div className="row about-box-color-movil about-divs-pink">
@@ -28,7 +28,7 @@ class aboutdevelop extends Component {
                 <div className="row about-box-color-movil about-divs-black">
                 </div>
               </div>
-              <p className="aboutDevelop-main-wedevelop texto about-divs-margins about-text ">{t('titleAbout')}<span className="parpadea"> &#124;</span></p>
+              <p className="aboutDevelop-main-wedevelop texto about-divs-margins about-text ">{traductor('titleAbout')}<span className="parpadea"> &#124;</span></p>
               <div className="about-barra about-barra-ipad">
                 <div className="row about-box-color-movil about-divs-pink">
                 </div>
@@ -54,12 +54,12 @@ class aboutdevelop extends Component {
                 <div className="divscolores">
                 </div>
                 <div className="divs-amarillo"></div>
-                <h2 className="aboutDevelop-main-branding-born tablet">&frasl;&frasl;{t('contentAboutDevelop')} &nbsp; </h2>
-                {t('aboutcontent')}
+                <h2 className="aboutDevelop-main-branding-born tablet">&frasl;&frasl;{traductor('contentAboutDevelop')} &nbsp; </h2>
+                {traductor('aboutcontent')}
 
               </div>
               <p className="texto about-main-sectors tablet">
-                {t('aboutcontentproyects')}
+                {traductor('aboutcontentproyects')}
               </p>
               <div className="divs-azul tablet"></div>
               <p className="texto about-main-sectors about-box-color-row tablet">
@@ -77,16 +77,16 @@ class aboutdevelop extends Component {
               </div>
               <div className="divs-amarillo"></div>
               <p className="texto about-main-sectors about-selector about-branding ">
-              &frasl;{t('contentAboutDevelop')}&nbsp;
+              &frasl;{traductor('contentAboutDevelop')}&nbsp;
               </p>
               <p className="texto about-main-sectors about-have-selector">
-                {t('aboutcontentproyects')}
+                {traductor('aboutcontentproyects')}
               </p>
               <p className="texto about-main-sectors ">
-                {t('aboutcontent')}
+                {traductor('aboutcontent')}
               </p>
               <p className="texto about-main-sectors">
-                {t('aboutcontentproyects')}
+                {traductor('aboutcontentproyects')}
               </p>
               <div className="divs-azul"></div>
               <p className="texto about-main-sectors about-bigpink">

@@ -21,7 +21,6 @@ class about extends Component {
 
 about.propTypes={
   name: PropTypes.string,
-  name1: PropTypes.string,
 };
 export default translate('txt')(about);
 
