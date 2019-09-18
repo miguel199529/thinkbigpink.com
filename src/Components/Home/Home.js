@@ -6,8 +6,26 @@ import './../../Style/Home.css';
 import PropTypes from 'prop-types';
 import {translate} from 'react-translate';
 class home extends Component {
+  constructor(props) {
+    super(props);
+    this.state={
+      idioma: 'en',
+
+    };
+  }
   render() {
+
+
     let { t } = this.props;
+    let url = window.location.href;
+    let idioma;
+    if (url.search('/es') !== -1) {
+      idioma='es';
+    } else {
+      idioma='en';
+    }
+
+
     return (
       <div className=" container-fluid main-background girasolo-index">
         <div className=" row center">
@@ -19,7 +37,13 @@ class home extends Component {
           </div>
         </div>
         <div className="row main-translator">
-          <span className="texto">&#60;<span><i>&quot;<a href="/es" className="maincolor">{t('home')}</a>&quot;</i></span>&#62;</span>
+
+          {
+            idioma==='en' ? (
+              <span className="texto">&#60;<span><i>&quot;< a href="/es" className="maincolor">{t('home')}</a>&quot;</i></span>&#62;</span>
+            ) : (<span className="texto">&#60;<span><i>&quot;< a href="/en" className="maincolor">{t('home')}</a>&quot;</i></span>&#62;</span>)
+          }
+
         </div>
       </div>
     );
