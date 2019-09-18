@@ -17,8 +17,7 @@ class Contact extends Component {
         </div>
         <p className="contact-texto-parrafo texto">{traductor('contactparrafo1')}</p>
         <p className="contact-texto-parrafo texto"> &nbsp;&nbsp; {traductor('contactparrafo2')} &#60;<a href ="mailto:hi@girasolo.com"  className="contact-blue texto"><i>hi@girasolo.com</i></a>&#62; {traductor('contactparrafolink')} &#60;<a href="tel:352 125 4523" className="contact-blue texto"><i>+52 352 125 4523</i></a>&#62;</p>
-        <p className="contact-texto-parrafos texto"> {traductor('contactparrafo')} </p>
-        <p className="contact-texto-parrafosp texto">{traductor('contactvisit')} &#60;<a href="https://goo.gl/maps/cmsBzTr8G24FqUnDA" className="contact-blue texto" target="blank"><i>Pacueco Gto Mx.</i></a>&#62; </p>
+        <p className="contact-texto-parrafos texto"> {traductor('contactparrafo')} &#60;<a href="https://goo.gl/maps/cmsBzTr8G24FqUnDA" className="contact-blue texto" target="blank"><i>Pacueco Gto Mx.</i></a>&#62; </p>
         <p className="contact-texto-parrafo texto">{traductor('redes')}&#60;&#34;<a href="https://www.instagram.com/girasoloagencia/" className="contact-pink" target="blank"><i>Instagram</i></a>&#34;&#62;,&#60;&#34;<a href="https://www.facebook.com/girasolo/" className="contact-pink texto" target="blank"><i>Facebook</i></a>&#34;&#62;,&#60;&#34;<a href="https://twitter.com/girasoloagencia?lang=es" className="contact-pink texto" target="blank"><i>Twitter</i></a>&#34;&#62;,{traductor('blog')}&#60;&#34;<a href="https://girasolo.home.blog/" className="contact-pink texto" target="blank"><i>Blog</i></a>&#34;&#62;.</p>
         <p className="contact-texto-parrafo texto">&#60;&#34;<a href="/es" className="contact-pink texto"><i>{traductor('translate')}</i></a>&#34;&#62;</p>
       </div>
