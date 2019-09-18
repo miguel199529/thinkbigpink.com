@@ -5,6 +5,8 @@ import SideDrawer from './../SideDRawer/SideDrawer';
 import Backdrop from './../../Components/Backdrop/Backdrop';
 import PropTypes from 'prop-types';
 
+import {translate} from 'react-translate';
+
 class Menu extends Component {
 
   constructor(props) {
@@ -52,5 +54,6 @@ class Menu extends Component {
 }
 Menu.propTypes={
   name: PropTypes.string,
+  nav: PropTypes.string
 };
-export default Menu;
+export default translate('txt') (Menu);
