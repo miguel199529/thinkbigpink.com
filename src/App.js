@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import ReactGA from 'react-ga';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Home from './Components/Home/Home';
 import About from './Components/About/About';
@@ -11,6 +12,16 @@ import Girasolo from './Components/Girasolo/Girasolo';
 import Menu from './Components/Menu/Menu';
 import { TranslatorProvider } from 'react-translate';
 import Button from './Components/Traduccion/Button';
+
+function initializeAnalitics(){
+  ReactGA.initialize('UA-4703027843-1');
+  ReactGA.pageview('/Home');
+  ReactGA.pageview('/About');
+  ReactGA.pageview('/WorkView');
+  ReactGA.pageview('/People');
+  ReactGA.pageview('/Girasolo');
+  ReactGA.pageview('/Contact');
+}
 class App extends Component {
 
   _getLayout(lang) {
@@ -33,6 +44,7 @@ class App extends Component {
   }
 
   render() {
+    initializeAnalitics();
     let url = window.location.href;
     if (url.search('/es') !== -1) {
       return this._getLayout('es');
