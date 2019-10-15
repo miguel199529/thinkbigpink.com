@@ -13,7 +13,6 @@ import Girasolo from './Components/Girasolo/Girasolo';
 import Menu from './Components/Menu/Menu';
 import { TranslatorProvider } from 'react-translate';
 import Button from './Components/Traduccion/Button';
-
 function initializeAnalitics(){
   ReactGA.initialize('UA-150068623-1');
   ReactGA.pageview('/Home');
@@ -28,7 +27,6 @@ const tagManagerArgs = {
 };
 TagManager.initialize(tagManagerArgs);
 class App extends Component {
-
   _getLayout(lang) {
     return (<TranslatorProvider translations={require('./Components/Traduccion/' + lang + '.json')}>
       <div>
@@ -47,7 +45,6 @@ class App extends Component {
       </Router>
     </TranslatorProvider>);
   }
-
   render() {
     initializeAnalitics();
     let url = window.location.href;
