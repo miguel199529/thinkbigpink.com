@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import ReactGA from 'react-ga';
+import TagManager from 'react-gtm-module';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Home from './Components/Home/Home';
 import About from './Components/About/About';
@@ -14,7 +15,7 @@ import { TranslatorProvider } from 'react-translate';
 import Button from './Components/Traduccion/Button';
 
 function initializeAnalitics(){
-  ReactGA.initialize('UA-4703027843-1');
+  ReactGA.initialize('UA-150068623-1');
   ReactGA.pageview('/Home');
   ReactGA.pageview('/About');
   ReactGA.pageview('/WorkView');
@@ -22,6 +23,10 @@ function initializeAnalitics(){
   ReactGA.pageview('/Girasolo');
   ReactGA.pageview('/Contact');
 }
+const tagManagerArgs = {
+  gtmId: 'GTM-N55DB99'
+};
+TagManager.initialize(tagManagerArgs);
 class App extends Component {
 
   _getLayout(lang) {
