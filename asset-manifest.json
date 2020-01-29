@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.63bf1f5b.chunk.css",
+    "main.js": "/static/js/main.4970a9f4.chunk.js",
+    "main.js.map": "/static/js/main.4970a9f4.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.731e220e.js",
+    "runtime~main.js.map": "/static/js/runtime~main.731e220e.js.map",
+    "static/css/2.22a7d4ef.chunk.css": "/static/css/2.22a7d4ef.chunk.css",
+    "static/js/2.448c27ef.chunk.js": "/static/js/2.448c27ef.chunk.js",
+    "static/js/2.448c27ef.chunk.js.map": "/static/js/2.448c27ef.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.094a8be073b3213a707ca210c689cd8e.js": "/precache-manifest.094a8be073b3213a707ca210c689cd8e.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.22a7d4ef.chunk.css.map": "/static/css/2.22a7d4ef.chunk.css.map",
+    "static/css/main.63bf1f5b.chunk.css.map": "/static/css/main.63bf1f5b.chunk.css.map",
+    "static/media/1.png": "/static/media/1.4cf2472d.png",
+    "static/media/2.png": "/static/media/2.fe902c77.png",
+    "static/media/4.png": "/static/media/4.d62c073b.png",
+    "static/media/5.png": "/static/media/5.6fdd3327.png",
+    "static/media/SideDrawer.css": "/static/media/Hack-Regular.6c9c9f33.ttf",
+    "static/media/LogotipoGirasolo.svg": "/static/media/LogotipoGirasolo.47aec9c8.svg",
+    "static/media/LogotipoOficial.svg": "/static/media/LogotipoOficial.9e03f125.svg",
+    "static/media/Girasolo.css": "/static/media/OndasPaginaGirasolo.b9db9a0e.svg",
+    "static/media/PacUeco.svg": "/static/media/PacUeco.e475fea4.svg"
+  }
+}
