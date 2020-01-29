@@ -1,0 +1,92 @@
+.people-width{
+  width: 50%;
+  width: 50%
+}
+.people-top{
+  margin-top: 10%;
+}
+.people-descripcion{
+  font-size: 24px;
+}
+.team-top{
+  margin-top: 5%;
+}
+@font-face {
+  font-family: myFirsclientes;
+  src: url(./../Assets/fonts/Hack-Regular.ttf);
+}
+.texto {
+  font-family: myFirsclientes !important;
+
+}
+
+@media only screen and (max-width: 320px) {
+  .people-width{
+    width: 100% !important;
+    height:100% !important;
+  }
+}
+@media only screen and (max-width: 401px) {
+  .people-width{
+    width: 100% !important;
+    height:100% !important;
+  }
+}
+@media only screen and (max-width: 600px) and (min-width: 402px)  {
+  .people-width{
+    width: 100% !important;
+    height:100% !important;
+  }
+}
+@media only screen and (max-width: 767px) and (min-width: 601px)  {
+  .people-width{
+    width: 100% !important;
+    height:100% !important;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .people-width{
+    width: 100% !important;
+    height:100% !important;
+  }
+  .people-margin {
+    padding-left: 32px;
+    padding-right: 32px;
+}
+}
+@media only screen and (min-width: 992px) {
+  .people-width{
+    width: 100% !important;
+    height:100% !important;
+  }
+  .people-margin {
+    padding-left: 32px;
+    padding-right: 32px;
+}
+}
+@media only screen and (min-width: 1200px) {
+  .people-width{
+    width: 100% !important;
+    height:100% !important;
+  }
+  .people-margin {
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.people-descripcion{
+  font-size: 24px;
+}
+}
+@media only screen and (min-width: 1600px) {
+  .people-width{
+    width: 100% !important;
+    height:100% !important;
+  }
+  .people-margin {
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.people-descripcion{
+  font-size: 24px;
+}
+}

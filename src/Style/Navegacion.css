@@ -1,0 +1,47 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.nav-posi{
+  z-index: 20;
+  position: fixed;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: transparent;
+}
+
+.active {
+  background-color: transparent;
+}
+.nav-posicion{
+  float: right !important;
+}
+.nav-logotipo{
+  width: 20%;
+  height: 20%;
+}
+@font-face {
+  font-family: myFirsclientes;
+  src: url(./../Assets/fonts/Hack-Regular.ttf);
+}
+.texto {
+  font-family: myFirsclientes !important;
+
+}

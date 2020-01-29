@@ -1,55 +1,58 @@
 import React, { Component } from 'react';
-import { Render } from 'react-dom'
 import './App.css';
-import Imagen from './Assets/2Puntos.svg';
-import { Image } from 'react-bootstrap';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import Home from './pages/Home';
-import About from './pages/About';
-import Work from './pages/Work';
-import People from './pages/People';
-import Girasolo from './pages/Girasolo';
-import Contact from './pages/Contact';
+import ReactGA from 'react-ga';
+import TagManager from 'react-gtm-module';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Home from './Components/Home/Home';
+import About from './Components/About/About';
+import WorkView from './Components/Work/Work-view';
+import People from './Components/People/People';
+import Contact from './Components/Contact/Contact';
+import Footer from './Components/Footer/Footer';
+import Girasolo from './Components/Girasolo/Girasolo';
+import Menu from './Components/Menu/Menu';
+import { TranslatorProvider } from 'react-translate';
+import Button from './Components/Traduccion/Button';
+function initializeAnalitics(){
+  ReactGA.initialize('UA-93769840-1');
+  ReactGA.pageview('/Home');
+  ReactGA.pageview('/About');
+  ReactGA.pageview('/WorkView');
+  ReactGA.pageview('/People');
+  ReactGA.pageview('/Girasolo');
+  ReactGA.pageview('/Contact');
+}
+const tagManagerArgs = {
+  gtmId: 'GTM-N55DB99'
+};
+TagManager.initialize(tagManagerArgs);
 class App extends Component {
-  render() {
-    return (
+  _getLayout(lang) {
+    return (<TranslatorProvider translations={require('./Components/Traduccion/' + lang + '.json')}>
+      <div>
+        <Button name="login" />
+        <Button name="create_account" />
+      </div>
       <Router>
-        <div>
-          <nav class="navbar navbar-inverse nv">
-            <div class="container-fluid">
-              <div class="navbar-header">
-                <Link to={'./home'}>
-                  <Image
-                    src={Imagen}
-                    className="logonav"
-                  />
-                </Link>
-              </div>
-              <ul class="nav navbar-nav navbar-right">
-                <Link to={'/about'}>About</Link>
-                <Link to={'/work'}>Work</Link>
-                <Link to={'/people'}>People</Link>
-                <Link to={'/girasolo'}>Girasolo</Link>
-                <Link to={'/contact'}>Contact</Link>
-                <li><a href="#"> Login</a></li>
-              </ul>
-            </div>
-          </nav>
-          <Switch>
-            <Route exact path='/about' component={About} />
-            <Route exact path='/people' component={People} />
-            <Route exact path='/work' component={Work} />
-            <Route exact path='/girasolo' component={Girasolo} />
-            <Route exact path='/contact' component={Contact} />
-          </Switch>
-        </div>
-        <Home />
-        <About />
-        <Work />
-        <People />
+        <Menu name="txt"></Menu>
+        <Home name="txt"></Home>
+        <About name="txt"></About>
+        <WorkView name="txt"></WorkView>
+        <People></People>
+        <Girasolo name="txt"></Girasolo>
+        <Contact name="txt"></Contact>
+        <Footer></Footer>
       </Router>
-    );
+    </TranslatorProvider>);
+  }
+  render() {
+    initializeAnalitics();
+    let url = window.location.href;
+    if (url.search('/es') !== -1) {
+      return this._getLayout('es');
+    } else {
+      return this._getLayout('en');
+    }
   }
 }
 export default App;
-

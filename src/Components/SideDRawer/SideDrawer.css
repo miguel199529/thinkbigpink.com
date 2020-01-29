@@ -1,0 +1,53 @@
+.side-drawer {
+  height: 100%;
+  background: #fcea01;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 650px;
+  z-index: 200;
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  -webkit-transition: -webkit-transform .3s ease-out;
+  transition: -webkit-transform .3s ease-out;
+  transition: transform .3s ease-out;
+  transition: transform .3s ease-out,-webkit-transform .3s ease-out;
+}
+.side-drawer.open{
+  transform: translateX(0);
+}
+.side-drawer ul{
+  height: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.side-drawer li{
+  margin: 2.5rem 0;
+}
+.side-drawer a{
+  color: black;
+  text-decoration: none;
+  font-size: 36px;
+}
+.side-drawer a:hover,
+.side-drawer a:active{
+  color: #55C8E5;
+}
+
+@font-face {
+  font-family: myFirsclientes;
+  src: url(./../../Assets/fonts/Hack-Regular.ttf);
+}
+.texto {
+  font-family: myFirsclientes !important;
+
+}
+
+@media (min-width:769px){
+ .side-drawer{
+   display: none;
+ }
+}

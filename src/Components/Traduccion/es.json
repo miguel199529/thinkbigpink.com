@@ -1,0 +1,69 @@
+{
+  "locale"     : "en-mx",
+  "buttons"     : {
+      "login" : "Iniciar Sesión",
+      "create_account" : "Registrate"
+  },
+  "about" :{
+    "title" : "Desarrollamos estrategias creativas",
+    "titleAbout" : "para ayudar a las marcas a ser exitosas en un mundo digital",
+    "contentAboutDevelop": "Nacimos en una agencia de branding",
+    "aboutcontent": "por eso, nos gustan las cosas bonitas, bien hecha y atractivas, no lo podemos evitar, está en nuestro ADN. Trabajamos proyectos que incluyen: desarrollo, diseño y tecnología multimedia; colaboramos día a día con equipos de diferentes disciplinas que aportan, también, diferentes perspectivas.",
+    "aboutcontentproyects" : "Hemos realizado proyectos para diferentes industrias, desde el sector salud, hasta gobierno, desde México hasta Japón, conectando las necesidades de los usuarios con los objetivos de las empresas."
+  },
+
+  "aboutservices":{
+    "titleservices":"Qué ofrecemos:",
+    "contServices1": "Diseño y Desarrollo de productos digitales. ",
+    "contServices2": "Consultoría UX + UI. ",
+   "contServices3": "Consultoría en estrategia digital.",
+   "contServices4": "Implementación de proyectos y productos digitales. "
+  },
+
+  "aboutWork":{
+    "worktitle": "Cómo trabajamos:",
+    "workul1": "Analizamos y entendemos los procesos de los usuarios.",
+    "workul2": "Proponemos tecnologías y arquitectura.",
+    "workul3": "Planeamos entregas basadas en metodologías ágiles.",
+    "workul4": "Construimos el proyecto trabajando juntos, desarrolladores y diseñadores."
+  },
+  "aboutArewe": {
+    "aboutarewetitle": "Quiénes somos:",
+    "areweul1": "Fundación 2015.",
+    "areweul2": "Localización Pacueco Mx.",
+    "areweul3": "Desarrolladores, estrategas y artistas digitales.",
+    "areweul4": "Proyectos en México, Japón y Estados Unidos."
+  },
+
+  "commingsoon":{
+    "cominsoontitle": "Nombre del proyecto",
+    "type":"Tipo de Proyecto"
+  },
+
+  "girasolo":{
+
+    "girasolocont": "Somos el hermano menor de GIRASOLO una agencia especializada en comunicación visual y mercadotecnia digital.",
+    "girasoloparrafo2": "Juntos, hacemos equipo para desarrollar productos funcionales y bonitos.",
+    "girasoloLink": "Visítalos en:"
+  },
+  "contact":{
+    "contactparrafo1": "Impulsemos tu negocio; nos encantaría escuchar [y desarrollar] tus ideas.",
+    "contactparrafo2": "Puedes escribirnos a",
+    "contactparrafolink": "o al whatsapp:",
+    "contactparrafo": "Si lo prefieres, llámanos. Visita nuestras instalaciones en:",
+
+    "redes": "Algo más; por favor, no olvides visitar nuestras redes sociales:",
+    "blog":"y nuestro",
+    "translate": "ENGLISH SPOKEN"
+  },
+  "home":{
+    "home":"ENGLISH SPOKEN"
+  },
+  "nav":{
+    "nav":"ESPAÑOL"
+  }
+
+
+
+
+}

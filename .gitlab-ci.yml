@@ -1,0 +1,19 @@
+image: alpine:latest
+
+before_script:
+  - yarn install
+
+stages:
+  - integration-code
+
+lint:
+  image: node:lts-alpine
+  stage: integration-code
+  script:
+    - yarn lint
+
+build:
+  image: node:lts-alpine
+  stage: integration-code
+  script:
+    - yarn build

@@ -1,0 +1,288 @@
+.contact{
+  width: 25%;
+  text-align: left;
+  margin-left: 2%;
+  padding-top: 3%;
+
+}
+
+.contact-pink{color: #E3097E !important;}
+.contact-blue{color: #55C8E5 !important;}
+.contact-texto{
+  margin-top: 2%;
+  font-size: 38px;
+  margin-left: 5%;
+}
+.contact-texto-parrafo{
+
+  font-size: 24px;
+  margin-left: 5%;
+white-space: pre-wrap;
+}
+
+.vl {
+  border-left: 2px solid #E3097E;
+  height: 15%;
+}
+@font-face {
+  font-family: myFirsclientes;
+  src: url(./../Assets/fonts/Hack-Regular.ttf);
+}
+.texto {
+  font-family: myFirsclientes !important;
+
+}
+.contact-margin-top{
+  margin-top: 26%;
+}
+.parpadea {
+
+  animation-name: parpadeo;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+  -webkit-animation-name:parpadeo;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-moz-keyframes parpadeo{
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes parpadeo {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+   100% { opacity: 1.0; }
+}
+
+@keyframes parpadeo {
+  0% { opacity: 1.0; }
+   50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+@media only screen and  (min-width: 320px) {
+  .contact-texto {
+    margin-top: 2%;
+    font-size: 23px;
+    margin-left: 5%;
+}
+.contact-texto-parrafo {
+  margin-top: 5%;
+  font-size: 14px !important;
+  margin-left: 5%;
+  white-space: pre-wrap;
+}
+
+.contact-texto-parrafosp {
+  padding-right: 2%;
+  font-size: 14px;
+  margin-left: 3%;
+  white-space: pre-wrap;
+  padding-left: 2%;
+  margin-top: -2%;
+}
+
+  .contact-texto-parrafos{
+      padding-right: 2%;
+      font-size: 16px;
+      margin-left: 3%;
+      white-space: pre-wrap;
+      padding-left: 2%;
+      margin-top: -6%;
+  }
+  .contact {
+    width: 80%;
+    text-align: left;
+    margin-left: 0%;
+    padding-top: 10%;
+}
+}
+
+@media only screen and  (min-width: 576px) {
+  .contact-texto-parrafo {
+      font-size: 16px !important;
+      margin-left: 5%;
+      white-space: pre-wrap;
+  }
+
+  .contact-texto-parrafosp {
+      padding-right: 2%;
+      font-size: 18px;
+      margin-left: 3%;
+      white-space: pre-wrap;
+      padding-left: 2%;
+      margin-top: -2%;
+  }
+  .contact-texto-parrafos{
+      padding-right: 2%;
+      font-size: 18px;
+      margin-left: 3%;
+      white-space: pre-wrap;
+      padding-left: 2%;
+      margin-top: -6%;
+  }
+  .contact {
+      width: 70%;
+      text-align: left;
+      margin-left: 2%;
+      padding-top: 3%;
+  }
+  texto {
+      margin-top: 2%;
+      font-size: 24px;
+      margin-left: 6%;
+  }
+ }
+@media only screen and  (min-width: 768px) {
+  .contact-texto {
+    margin-top: 2%;
+    font-size: 38px;
+    margin-left: 5%;
+}
+
+  .contact-texto-parrafosp {
+      padding-right: 2%;
+      font-size: 24px;
+      margin-left: 3%;
+      white-space: pre-wrap;
+      padding-left: 2%;
+      margin-top: -2%;
+  }
+  .contact-texto-parrafos{
+      padding-right: 2%;
+      font-size: 24px;
+      margin-left: 3%;
+      white-space: pre-wrap;
+      padding-left: 2%;
+      margin-top: -2%;
+  }
+  .contact-texto-parrafo {
+      padding-right: 2%;
+      font-size: 24px !important;
+      margin-left: 5%;
+      white-space: pre-wrap;
+      padding-left: 2%;
+  }
+  .contact {
+    width: 65%;
+    text-align: left;
+    margin-left: 2%;
+    padding-top: 10%;
+}
+
+}
+@media only screen and  (min-width: 992px) {
+  .contact-margin-top {
+    margin-top: 40%;
+}
+
+
+  .contact-texto-parrafosp {
+      padding-right: 2%;
+      font-size: 24px !important;
+      margin-left: 3%;
+      white-space: pre-wrap;
+      padding-left: 2%;
+      margin-top: -2%;
+  }
+  .contact-texto-parrafos{
+      padding-right: 2%;
+      font-size: 24px  !important;
+      margin-left: 3%;
+      white-space: pre-wrap;
+      padding-left: 2%;
+      margin-top: -1%;
+  }
+  .contact-texto-parrafo {
+      padding-right: 2%;
+      font-size: 24px !important;
+
+      white-space: pre-wrap;
+      padding-left: 2%;
+  }
+  .contact {
+      width: 58% !important;
+      text-align: left;
+      margin-left: 2%;
+      padding-top: 3%;
+  }
+
+}
+@media only screen and  (min-width: 1200px) {
+  .contact-margin-top {
+    margin-top: 28% !important;
+}
+  .contact-texto-parrafo {
+      padding-right: 2%;
+      font-size: 16px !important;
+      margin-left: 3%;
+      white-space: pre-wrap;
+      padding-left: 2%;
+      margin-top: 1%;
+  }
+
+  .contact-texto-parrafos {
+      padding-right: 2%;
+      font-size: 16px !important;
+      margin-left: 3%;
+      white-space: pre-wrap;
+      padding-left: 2%;
+      margin-top: 1% !important;
+  }
+  .contact-texto-parrafosp {
+      padding-right: 2%;
+      font-size: 16px !important;
+      margin-left: 3%;
+      white-space: pre-wrap;
+      padding-left: 2%;
+      margin-top: -2%;
+  }
+  .contact {
+    width: 25%;
+    text-align: left;
+    margin-left: 2%;
+    padding-top: 15%;
+}
+}
+@media only screen and  (min-width: 1600px) {
+  .contact {
+    width: 50% !important;
+    text-align: left;
+    margin-left: 2%;
+    padding-top: 12%;
+}
+
+  .contact-texto-parrafosp {
+      padding-right: 2%;
+      font-size: 22px !important;
+      margin-left: 3%;
+      white-space: pre-wrap;
+      padding-left: 2%;
+      margin-top: -1%;
+  }
+  .contact-texto-parrafos {
+      padding-right: 2%;
+      font-size: 22px !important;
+      margin-left: 3%;
+      white-space: pre-wrap;
+      padding-left: 2%;
+      margin-top: -4%;
+  }
+  .contact-texto-parrafo {
+      padding-right: 2%;
+      font-size: 22px !important;
+      margin-left: 5%;
+      white-space: pre-wrap;
+      padding-left: 2%;
+    margin-top: 1%;
+  }
+  .contact-margin-top {
+    margin-top: 25%;
+}
+
+}

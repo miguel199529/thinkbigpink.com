@@ -1,0 +1,124 @@
+.uls {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+background: #FCEA01;
+}
+
+
+.lis {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 1px 10px;
+  text-decoration: none;
+}
+
+
+.active {
+  background-color: transparent;
+}
+
+
+.nav-row{
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+
+.nav-posicion-fixed{
+  z-index: 20;
+    position: fixed;
+    width: 100%;
+}
+
+@media only screen and  (min-width: 320px) {
+  .nav-desktop{
+      display: none !important;
+  }
+ }
+
+@media only screen and  (min-width: 375px) {
+  .nav-desktop{
+  display: none;
+}
+}
+
+@media only screen and  (min-width: 576px) {
+  .nav-desktop{
+  display: none;
+}
+}
+@media only screen and  (min-width: 768px) {
+  .nav-desktop{
+      display: none;
+  }
+ }
+@media only screen and  (min-width: 992px) {
+  .nav-posicion{
+    float: right;
+    margin-top: -6%;
+}
+
+.nav-img-desk{
+  margin-right: 74%;
+}
+
+  .nav-desktop{
+      display: block !important;
+      width: 100%;
+  }
+  li a {
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 16px 26px;
+      text-decoration: none;
+      font-size: 20px !important;
+  }
+  }
+@media only screen and  (min-width: 1200px) {
+  .nav-posicion{
+    float: right;
+    margin-top: -5%;
+}
+
+  li a {
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 16px 26px;
+      text-decoration: none;
+      font-size: 22px !important;
+  }
+  .nav-desktop{
+      display: block !important;
+      width: 100%;
+  }
+
+ }
+@media only screen and  (min-width: 1600px) {
+  .nav-posicion{
+    float: right;
+    margin-top: -3%;
+}
+  li a {
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 16px 26px;
+      text-decoration: none;
+      font-size: 22px !important;
+  }
+  .nav-desktop{
+      display: block !important;
+      width: 100% !important;
+  }
+
+}
+
